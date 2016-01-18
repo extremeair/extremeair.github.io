@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 	<div class="expandable-box" data-toggle="modal" data-target="#myModal">
     	<div class="expandable-box-top">
         	<img src="{{ site.baseurl }}/img/{{ pump.image }}" alt="{{ pump.name }}">
@@ -9,3 +10,26 @@
     	</div>
 	</div>
   
+=======
+<style type="text/css">
+    #car_trending {
+        max-height: 400px;
+    }
+</style>
+
+<div class="expandable-box" >
+    <div class="expandable-box-top panel panel-default" id="car_trending">
+    	<div class="panel-body">
+        	<a href="#myModal-{{pump.id}}" data-toggle="modal" data-type="image" data-toggle="lightbox" class="zoom"><img src="{{ site.baseurl }}/img/{{ pump.image }}" alt="{{ pump.name }}"></a>
+        	<h4>{{ pump.name }}</h4>
+        </div>
+    </div>
+    <!--<div class="expandable-box-bottom">
+        <span data-toggle="tooltip" data-placement="bottom" title="{{ member.url }}"><svg class="icon icon-cheveron-right"><use xlink:href="#icon-cheveron-right"></use></svg></span>
+        <span data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon -phone"></use></svg></span>
+    </div>-->
+</div> 
+
+
+
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54

@@ -1,6 +1,7 @@
 - id: 1
   name: Cement feeding system
   image: Cement Feeding.jpg
+<<<<<<< HEAD
   email: email@gmail.com
   phone: 9659 43 21
 
@@ -15,3 +16,61 @@
   image: Vacuum Pump.jpg
   email: email@gmail.com
   phone: 9659 43 21
+=======
+  image1: gallery-small.jpg
+  image2: gallery-small2.jpg
+  alt: please insert proper image
+  email: email@gmail.com
+  phone: 9659 43 21
+  content: "This system is designed to feed cement or fly ash for packaging in bags/bunkers/screening applications as per clients need.  Its used for conveying or feeding the cement or fly ash into silos at Batching Plant sites. We provide highly customized systems with several designs and technical specifications to suit specific needs of our clients. We use high quality components in accordance with international quality standards and that too with most affordable prices.\n 
+             Reliable operation and long service life \n
+             Smooth operation great feeding capacity and high efficiency \n
+             Continuous and even feeding of cement or other powder based materials \n
+             Variable flow rate and operation mode \n
+             Excellent continuity and adjustable vibrating force \n
+             Low noise and power efficient \n"
+- id: 2
+  name: Roots Blower
+  image: Roots Blower1.jpg
+  image1: gallery-small.jpg
+  image2: gallery-small2.jpg
+  alt: please insert proper image
+  email: email@gmail.com
+  phone: 9659 43 21
+  content: |
+            It's one of the type of positive displacement blower. They are high volume - low pressure units and used where high volume of air is required constantly at differential pressure. We manufacture wide range of blower with different capacity and with air cooled as well as water cooled option. We provide ready to install machine with all accessories as well as bare blower.
+            Applications-
+            Water Treatment Plants
+            Pneumatic Conveying System
+            Sewage Treatment Plants
+            Central Vacuum Cleaning System
+            Aeration in Storage silos
+            Air Drying
+            Blending
+            Charging of Kilns in Cement and Steel Plants
+            Effluent Treatment Plants
+            Dewatering and many more.
+- id: 3
+  name: Vacuum Pump
+  image: Vacuum Pump.jpg
+  image1: gallery-small.jpg
+  image2: gallery-small2.jpg
+  alt: please insert proper image
+  email: email@gmail.com
+  phone: 9659 43 21
+  content: |
+            Water/Liquid Ring Vacuum Pump
+            It's used in concentrating, dipping, vacuum evaporation, drying or other processing applications. Vacuum pump is used to pump specific kinds of air or other gas.
+
+            Applications-
+            Fly Ash Handling
+            Thermal & Atomic power plants
+            Textile Industry
+            Fertilizer plants
+            Steel Plants
+            Sugar Industry
+            Mineral Washeries
+            Chemical & Pharmaceutical Industry
+
+
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54

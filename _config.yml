@@ -1,14 +1,26 @@
 # Site settings
+<<<<<<< HEAD
 title: Extreme-Airs
 description: "We provide the best quality pumps."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
+=======
+title: ExtremeAir 
+description: "We provide the best quality pumps."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/logo.jpg
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 
 # Hero
 hero:
     hero_img: hero.jpg
+<<<<<<< HEAD
     hero_title: Extreme-Airs
+=======
+    hero_title: ExtremeAir
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
     hero_description: We provide the best quality pumps.
 
 # Contact form
@@ -19,7 +31,11 @@ contact:
     phone: 932 50 540
     emergency: 931 53 234
     email: info@extremeairs.in
+<<<<<<< HEAD
     address: address
+=======
+    address: "C-63, Shiv Industrial Park, Nr. Sarjan Ind., Ambica Tube Compound, Vatva, Ahmedabad – 382440, Gujarat, India."
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 
 # Map
 map:
@@ -52,5 +68,9 @@ exclude: [
 ]
 
 # Theme Settings
+<<<<<<< HEAD
 analytics:
+=======
+analytics: UA-72221421-1
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 google_verification:

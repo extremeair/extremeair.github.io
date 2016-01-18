@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 node_modules
+=======
+<<<<<<< HEAD
+_site
+.sass-cache
+node_modules/
+
+
+
+=======
+node_modules
+>>>>>>> 7f827d3bf9d86a6088dbb57a32af907f803a260e
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54

@@ -26,9 +26,13 @@
     /* Team slideshow
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
+<<<<<<< HEAD
 
         autoPlay: 5000, //Set AutoPlay to 5 seconds
 
+=======
+        autoPlay: 5000, //Set AutoPlay to 5 seconds
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
         items : 3,
         itemsDesktopSmall : [979,3],
         stopOnHover: true
@@ -46,6 +50,7 @@
 
     /* Google map
     ----------------------------------------------*/
+<<<<<<< HEAD
     $(".map").each(function(){
 
         var data_zoom = 17;
@@ -90,5 +95,7 @@
             }
         });
     });
+=======
+>>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 
 })(jQuery);
