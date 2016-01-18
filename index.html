@@ -3,19 +3,19 @@ layout: default
 ---
 <link rel="stylesheet" type="text/css" href="css/img.css">
 <script type="text/javascript">
-	$(document).ready(function() {               
+	$(document).ready(function() {
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
-    });      
-                                 
-}); 
-function getText(name)
-  {  
-  	$('html, body').animate({ scrollTop: $('#cntct').offset().top }, 'slow');
-    document.getElementById("myTextarea").value=name;
+    });
 
-    }  
+});
+function getText(name)
+  {
+  	$('html, body').animate({ scrollTop: $('#cntct').offset().top }, 'slow');
+    document.getElementById("myTextarea").value="I would like to know about the <b>"+name+"</b>";
+
+    }
 </script>
 <style type="text/css">
 	#logo1 {
