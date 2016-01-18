@@ -27,12 +27,16 @@
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         autoPlay: 5000, //Set AutoPlay to 5 seconds
 
 =======
         autoPlay: 5000, //Set AutoPlay to 5 seconds
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+        autoPlay: 5000, //Set AutoPlay to 5 seconds
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
         items : 3,
         itemsDesktopSmall : [979,3],
         stopOnHover: true
@@ -50,6 +54,7 @@
 
     /* Google map
     ----------------------------------------------*/
+<<<<<<< HEAD
 <<<<<<< HEAD
     $(".map").each(function(){
 
@@ -97,5 +102,7 @@
     });
 =======
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 })(jQuery);

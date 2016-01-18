@@ -3563,10 +3563,14 @@ if (typeof Object.create !== "function") {
                 if (base.completeImg($lazyImg.get(0)) || isBackgroundImg === true) {
                     showImage();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } else if (iterations <= 100) {//if image loads in less than 10 seconds
 =======
                 } else if (iterations <= 100) {//if image loads in less than 10 seconds 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+                } else if (iterations <= 100) {//if image loads in less than 10 seconds 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
                     window.setTimeout(checkLazyImage, 100);
                 } else {
                     showImage();
@@ -3596,10 +3600,14 @@ if (typeof Object.create !== "function") {
                 if (base.completeImg($currentimg.get(0))) {
                     addHeight();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } else if (iterations <= 100) { //if image loads in less than 10 seconds
 =======
                 } else if (iterations <= 100) { //if image loads in less than 10 seconds 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+                } else if (iterations <= 100) { //if image loads in less than 10 seconds 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
                     window.setTimeout(checkImage, 100);
                 } else {
                     base.wrapperOuter.css("height", ""); //Else remove height attribute
@@ -3888,6 +3896,7 @@ if (typeof Object.create !== "function") {
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2015 Dmitry Semenov; */
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;(function (factory) {
 if (typeof define === 'function' && define.amd) {
  // AMD. Register as an anonymous module.
@@ -3907,6 +3916,8 @@ if (typeof define === 'function' && define.amd) {
  * Magnific Popup Core JS file
  *
 =======
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 ;(function (factory) { 
 if (typeof define === 'function' && define.amd) { 
  // AMD. Register as an anonymous module. 
@@ -3925,7 +3936,10 @@ if (typeof define === 'function' && define.amd) {
  * 
  * Magnific Popup Core JS file
  * 
+<<<<<<< HEAD
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 
 
@@ -3948,10 +3962,14 @@ var CLOSE_EVENT = 'Close',
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Private vars
 =======
  * Private vars 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+ * Private vars 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 /*jshint -W079 */
 var mfp, // As we have only one instance of MagnificPopup object, we define it locally to not to use 'this'
@@ -4021,6 +4039,7 @@ var _mfpOn = function(name, f) {
 
 		if( s['transition'] !== undefined ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			return true;
 		}
 
@@ -4029,16 +4048,25 @@ var _mfpOn = function(name, f) {
 		}
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			return true; 
+		}
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		while( v.length ) {
 			if( v.pop() + 'Transition' in s ) {
 				return true;
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 				
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		return false;
 	};
 
@@ -4053,19 +4081,27 @@ MagnificPopup.prototype = {
 
 	/**
 <<<<<<< HEAD
+<<<<<<< HEAD
 	 * Initializes Magnific Popup plugin.
 =======
 	 * Initializes Magnific Popup plugin. 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	 * Initializes Magnific Popup plugin. 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	 * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
 	 */
 	init: function() {
 		var appVersion = navigator.appVersion;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1;
 =======
 		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1; 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1; 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.isIE8 = appVersion.indexOf("MSIE 8.") !== -1;
 		mfp.isLowIE = mfp.isIE7 || mfp.isIE8;
 		mfp.isAndroid = (/android/gi).test(appVersion);
@@ -4089,10 +4125,14 @@ MagnificPopup.prototype = {
 		var i;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if(data.isObj === false) {
 =======
 		if(data.isObj === false) { 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		if(data.isObj === false) { 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			// convert jQuery collection to array to avoid conflicts later
 			mfp.items = data.items.toArray();
 
@@ -4120,12 +4160,17 @@ MagnificPopup.prototype = {
 			return;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		mfp.types = [];
 =======
 		
 		mfp.types = []; 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+		mfp.types = []; 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		_wrapClasses = '';
 		if(data.mainEl && data.mainEl.length) {
 			mfp.ev = data.mainEl.eq(0);
@@ -4145,10 +4190,14 @@ MagnificPopup.prototype = {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data );
 =======
 		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data ); 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data ); 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.fixedContentPos = mfp.st.fixedContentPos === 'auto' ? !mfp.probablyMobile : mfp.st.fixedContentPos;
 
 		if(mfp.st.modal) {
@@ -4158,10 +4207,14 @@ MagnificPopup.prototype = {
 			mfp.st.enableEscapeKey = false;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		// Building markup
 		// main containers are created only once
@@ -4214,10 +4267,14 @@ MagnificPopup.prototype = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(mfp.fixedContentPos) {
 			mfp.wrap.css({
@@ -4227,10 +4284,14 @@ MagnificPopup.prototype = {
 			});
 		} else {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			mfp.wrap.css({
 =======
 			mfp.wrap.css({ 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			mfp.wrap.css({ 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				top: _window.scrollTop(),
 				position: 'absolute'
 			});
@@ -4243,10 +4304,14 @@ MagnificPopup.prototype = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(mfp.st.enableEscapeKey) {
 			// Close on ESC key
@@ -4266,10 +4331,14 @@ MagnificPopup.prototype = {
 			_wrapClasses += ' mfp-auto-cursor';
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(_wrapClasses)
 			mfp.wrap.addClass(_wrapClasses);
 
@@ -4278,10 +4347,14 @@ MagnificPopup.prototype = {
 		var windowHeight = mfp.wH = _window.height();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var windowStyles = {};
 
 		if( mfp.fixedContentPos ) {
@@ -4303,12 +4376,17 @@ MagnificPopup.prototype = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 		
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var classesToadd = mfp.st.mainClass;
 		if(mfp.isIE7) {
 			classesToadd += ' mfp-ie7';
@@ -4325,15 +4403,20 @@ MagnificPopup.prototype = {
 		// remove scrollbar, add margin e.t.c
 		$('html').css(windowStyles);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		// add everything to DOM
 		mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
 
 		// Save last focused element
 		mfp._lastFocusedEl = document.activeElement;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 		// Wait for next cycle to allow CSS transition
@@ -4345,6 +4428,12 @@ MagnificPopup.prototype = {
 		setTimeout(function() {
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+		// Wait for next cycle to allow CSS transition
+		setTimeout(function() {
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(mfp.content) {
 				mfp._addClassToMFP(READY_CLASS);
 				mfp._setFocus();
@@ -4353,10 +4442,14 @@ MagnificPopup.prototype = {
 				mfp.bgOverlay.addClass(READY_CLASS);
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			// Trap the focus in popup
 			_document.on('focusin' + EVENT_NS, mfp._onFocusIn);
 
@@ -4416,10 +4509,14 @@ MagnificPopup.prototype = {
 			$('html').css(windowStyles);
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		_document.off('keyup' + EVENT_NS + ' focusin' + EVENT_NS);
 		mfp.ev.off(EVENT_NS);
 
@@ -4440,10 +4537,14 @@ MagnificPopup.prototype = {
 			$(mfp._lastFocusedEl).focus(); // put tab focus back
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		mfp.currItem = null;
 =======
 		mfp.currItem = null;	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		mfp.currItem = null;	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.content = null;
 		mfp.currTemplate = null;
 		mfp.prevHeight = 0;
@@ -4451,10 +4552,14 @@ MagnificPopup.prototype = {
 		_mfpTrigger(AFTER_CLOSE_EVENT);
 	},
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	updateSize: function(winHeight) {
 
 		if(mfp.isIOS) {
@@ -4492,19 +4597,28 @@ MagnificPopup.prototype = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		var type = item.type;
 =======
 		var type = item.type;	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		var type = item.type;	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		_mfpTrigger('BeforeChange', [mfp.currItem ? mfp.currItem.type : '', type]);
 		// BeforeChange event works like so:
 		// _mfpOn('BeforeChange', function(e, prevType, newType) { });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.currItem = item;
 
 
+<<<<<<< HEAD
 
 
 =======
@@ -4515,6 +4629,9 @@ MagnificPopup.prototype = {
 
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(!mfp.currTemplate[type]) {
 			var markup = mfp.st[type] ? mfp.st[type].markup : false;
@@ -4534,10 +4651,14 @@ MagnificPopup.prototype = {
 			mfp.container.removeClass('mfp-'+_prevContentType+'-holder');
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var newContent = mfp['get' + type.charAt(0).toUpperCase() + type.slice(1)](item, mfp.currTemplate[type]);
 		mfp.appendContent(newContent, type);
 
@@ -4546,10 +4667,14 @@ MagnificPopup.prototype = {
 		_mfpTrigger(CHANGE_EVENT, item);
 		_prevContentType = item.type;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		// Append container back after its content changed
 		mfp.container.prepend(mfp.contentContainer);
 
@@ -4563,10 +4688,14 @@ MagnificPopup.prototype = {
 	appendContent: function(newContent, type) {
 		mfp.content = newContent;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(newContent) {
 			if(mfp.st.showCloseBtn && mfp.st.closeBtnInside &&
 				mfp.currTemplate[type] === true) {
@@ -4590,10 +4719,14 @@ MagnificPopup.prototype = {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	/**
 	 * Creates Magnific Popup data object based on given data
 	 * @param  {int} index Index of item to parse
@@ -4648,6 +4781,7 @@ MagnificPopup.prototype = {
 		if(!options) {
 			options = {};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		}
 
 		var eName = 'click.magnificPopup';
@@ -4660,6 +4794,13 @@ MagnificPopup.prototype = {
 		options.mainEl = el;
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		} 
+
+		var eName = 'click.magnificPopup';
+		options.mainEl = el;
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(options.items) {
 			options.isObj = true;
 			el.off(eName).on(eName, eHandler);
@@ -4695,10 +4836,14 @@ MagnificPopup.prototype = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(e.type) {
 			e.preventDefault();
 
@@ -4708,10 +4853,14 @@ MagnificPopup.prototype = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		options.el = $(e.mfpEl);
 		if(options.delegate) {
@@ -4880,10 +5029,14 @@ $.magnificPopup = {
 
 	open: function(options, index) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		_checkInstance();
 =======
 		_checkInstance();	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		_checkInstance();	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(!options) {
 			options = {};
@@ -4891,10 +5044,14 @@ $.magnificPopup = {
 			options = $.extend(true, {}, options);
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		options.isObj = true;
 		options.index = index || 0;
@@ -4910,7 +5067,11 @@ $.magnificPopup = {
 			$.magnificPopup.defaults[name] = module.options;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		$.extend(this.proto, module.proto);
+=======
+		$.extend(this.proto, module.proto);			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		this.modules.push(name);
 	},
 
@@ -4918,6 +5079,7 @@ $.magnificPopup = {
 
 		// Info about options is in docs:
 		// http://dimsemenov.com/plugins/magnific-popup/documentation.html#options
+<<<<<<< HEAD
 
 		disableOn: 0,
 =======
@@ -4932,6 +5094,10 @@ $.magnificPopup = {
 		
 		disableOn: 0,	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+		disableOn: 0,	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		key: null,
 
@@ -4943,19 +5109,27 @@ $.magnificPopup = {
 
 		focus: '', // CSS selector of input to focus after popup is opened
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		closeOnContentClick: false,
 
 		closeOnBgClick: true,
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		closeBtnInside: true,
 =======
 		closeBtnInside: true, 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		closeBtnInside: true, 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		showCloseBtn: true,
 
@@ -4965,6 +5139,7 @@ $.magnificPopup = {
 
 		alignTop: false,
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		removalDelay: 0,
 
@@ -4973,6 +5148,8 @@ $.magnificPopup = {
 		fixedContentPos: 'auto',
 
 =======
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	
 		removalDelay: 0,
 
@@ -4980,7 +5157,10 @@ $.magnificPopup = {
 		
 		fixedContentPos: 'auto', 
 	
+<<<<<<< HEAD
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		fixedBgPos: 'auto',
 
 		overflowY: 'auto',
@@ -5028,6 +5208,7 @@ $.fn.magnificPopup = function(options) {
 		// clone options obj
 		options = $.extend(true, {}, options);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		/*
 		 * As Zepto doesn't support .data() method for objects
@@ -5036,6 +5217,11 @@ $.fn.magnificPopup = function(options) {
 		/*
 		 * As Zepto doesn't support .data() method for objects 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		
+		/*
+		 * As Zepto doesn't support .data() method for objects 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		 * and it works only in normal browsers
 		 * we assign "options" object directly to the DOM element. FTW!
 		 */
@@ -5078,10 +5264,14 @@ console.log('Test #2:', performance.now() - start);
 var INLINE_NS = 'inline',
 	_hiddenClass,
 <<<<<<< HEAD
+<<<<<<< HEAD
 	_inlinePlaceholder,
 =======
 	_inlinePlaceholder, 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	_inlinePlaceholder, 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	_lastInlineElement,
 	_putInlineElementsBack = function() {
 		if(_lastInlineElement) {
@@ -5231,10 +5421,14 @@ $.magnificPopup.registerModule(AJAX_NS, {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 /*>>ajax*/
 
@@ -5242,10 +5436,14 @@ $.magnificPopup.registerModule(AJAX_NS, {
 var _imgInterval,
 	_getTitle = function(item) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if(item.data && item.data.title !== undefined)
 =======
 		if(item.data && item.data.title !== undefined) 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		if(item.data && item.data.title !== undefined) 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			return item.data.title;
 
 		var src = mfp.st.image.titleSrc;
@@ -5277,10 +5475,14 @@ $.magnificPopup.registerModule('image', {
 				'</div>',
 		cursor: 'mfp-zoom-out-cur',
 <<<<<<< HEAD
+<<<<<<< HEAD
 		titleSrc: 'title',
 =======
 		titleSrc: 'title', 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		titleSrc: 'title', 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		verticalFit: true,
 		tError: '<a href="%url%">The image</a> could not be loaded.'
 	},
@@ -5326,20 +5528,28 @@ $.magnificPopup.registerModule('image', {
 		_onImageHasSize: function(item) {
 			if(item.img) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 				
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				item.hasSize = true;
 
 				if(_imgInterval) {
 					clearInterval(_imgInterval);
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 				
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				item.isCheckingImgSize = false;
 
 				_mfpTrigger('ImageHasSize', item);
@@ -5348,10 +5558,14 @@ $.magnificPopup.registerModule('image', {
 					if(mfp.content)
 						mfp.content.removeClass('mfp-loading');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 					
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					item.imgHidden = false;
 				}
 
@@ -5405,10 +5619,14 @@ $.magnificPopup.registerModule('image', {
 						if (item.img[0].complete) {
 							item.img.off('.mfploader');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 							
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+							
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 							if(item === mfp.currItem){
 								mfp._onImageHasSize(item);
 
@@ -5420,10 +5638,14 @@ $.magnificPopup.registerModule('image', {
 
 							_mfpTrigger('ImageLoadComplete');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 							
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+							
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 						}
 						else {
 							// if image complete check fails 200 times (20 sec), we assume that there was an error.
@@ -5474,10 +5696,14 @@ $.magnificPopup.registerModule('image', {
 				if(img.naturalWidth > 0) {
 					item.hasSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				} else if(!img.width) {
 =======
 				} else if(!img.width) {										
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				} else if(!img.width) {										
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					item.hasSize = false;
 				}
 			}
@@ -5510,10 +5736,14 @@ $.magnificPopup.registerModule('image', {
 				template.addClass('mfp-loading');
 				mfp.findImageSize(item);
 <<<<<<< HEAD
+<<<<<<< HEAD
 			}
 =======
 			} 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			} 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 			return template;
 		}
@@ -5531,10 +5761,14 @@ var hasMozTransform,
 			hasMozTransform = document.createElement('p').style.MozTransform !== undefined;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		return hasMozTransform;
 =======
 		return hasMozTransform;		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		return hasMozTransform;		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	};
 
 $.magnificPopup.registerModule('zoom', {
@@ -5555,10 +5789,14 @@ $.magnificPopup.registerModule('zoom', {
 				ns = '.zoom',
 				image;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 				
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(!zoomSt.enabled || !mfp.supportsTransition) {
 				return;
 			}
@@ -5595,10 +5833,14 @@ $.magnificPopup.registerModule('zoom', {
 
 					// Basically, all code below does is clones existing image, puts in on top of the current one and animated it
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 					
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					image = mfp._getItemToZoom();
 
 					if(!image) {
@@ -5607,12 +5849,17 @@ $.magnificPopup.registerModule('zoom', {
 					}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 					animatedImg = getElToAnimate(image);
 
 =======
 					animatedImg = getElToAnimate(image); 
 					
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					animatedImg = getElToAnimate(image); 
+					
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					animatedImg.css( mfp._getOffset() );
 
 					mfp.wrap.append(animatedImg);
@@ -5628,10 +5875,14 @@ $.magnificPopup.registerModule('zoom', {
 								image = animatedImg = null;
 								_mfpTrigger('ZoomAnimationEnded');
 <<<<<<< HEAD
+<<<<<<< HEAD
 							}, 16); // avoid blink when switching images
 =======
 							}, 16); // avoid blink when switching images 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+							}, 16); // avoid blink when switching images 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 						}, duration); // this timeout equals animation duration
 
@@ -5656,6 +5907,7 @@ $.magnificPopup.registerModule('zoom', {
 						animatedImg = getElToAnimate(image);
 					}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 					animatedImg.css( mfp._getOffset(true) );
@@ -5670,6 +5922,14 @@ $.magnificPopup.registerModule('zoom', {
 					mfp.content.css('visibility', 'hidden');
 					
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					
+					
+					animatedImg.css( mfp._getOffset(true) );
+					mfp.wrap.append(animatedImg);
+					mfp.content.css('visibility', 'hidden');
+					
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					setTimeout(function() {
 						animatedImg.css( mfp._getOffset() );
 					}, 16);
@@ -5685,10 +5945,14 @@ $.magnificPopup.registerModule('zoom', {
 					}
 					image = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				}
 =======
 				}	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				}	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			});
 		},
 
@@ -5721,10 +5985,14 @@ $.magnificPopup.registerModule('zoom', {
 
 			/*
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			Animating left + top + width/height looks glitchy in Firefox, but perfect in Chrome. And vice-versa.
 
 			 */
@@ -5756,6 +6024,7 @@ $.magnificPopup.registerModule('zoom', {
 var IFRAME_NS = 'iframe',
 	_emptyPage = '//about:blank',
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	_fixIframeBugs = function(isShowing) {
 		if(mfp.currTemplate[IFRAME_NS]) {
@@ -5768,6 +6037,13 @@ var IFRAME_NS = 'iframe',
 			var el = mfp.currTemplate[IFRAME_NS].find('iframe');
 			if(el.length) { 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+	
+	_fixIframeBugs = function(isShowing) {
+		if(mfp.currTemplate[IFRAME_NS]) {
+			var el = mfp.currTemplate[IFRAME_NS].find('iframe');
+			if(el.length) { 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				// reset src after the popup is closed to avoid "video keeps playing after popup is closed" bug
 				if(!isShowing) {
 					el[0].src = _emptyPage;
@@ -5795,12 +6071,17 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 		patterns: {
 			youtube: {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				index: 'youtube.com',
 				id: 'v=',
 =======
 				index: 'youtube.com', 
 				id: 'v=', 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				index: 'youtube.com', 
+				id: 'v=', 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				src: '//www.youtube.com/embed/%id%?autoplay=1'
 			},
 			vimeo: {
@@ -5826,10 +6107,14 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 					} else if(newType === IFRAME_NS) {
 						_fixIframeBugs(true); // iframe is showing
 <<<<<<< HEAD
+<<<<<<< HEAD
 					}
 =======
 					} 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					} 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				}// else {
 					// iframe source is switched, don't do anything
 				//}
@@ -5844,10 +6129,14 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 			var embedSrc = item.src;
 			var iframeSt = mfp.st.iframe;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 				
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			$.each(iframeSt.patterns, function() {
 				if(embedSrc.indexOf( this.index ) > -1) {
 					if(this.id) {
@@ -5862,10 +6151,14 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 				}
 			});
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			var dataObj = {};
 			if(iframeSt.srcAction) {
 				dataObj[iframeSt.srcAction] = embedSrc;
@@ -5923,10 +6216,14 @@ $.magnificPopup.registerModule('gallery', {
 
 			mfp.direction = true; // true - next, false - prev
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(!gSt || !gSt.enabled ) return false;
 
 			_wrapClasses += ' mfp-gallery';
@@ -5966,15 +6263,20 @@ $.magnificPopup.registerModule('gallery', {
 				if(mfp.items.length > 1 && gSt.arrows && !mfp.arrowLeft) {
 					var markup = gSt.arrowMarkup,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),
 =======
 						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 						arrowRight = mfp.arrowRight = $( markup.replace(/%title%/gi, gSt.tNext).replace(/%dir%/gi, 'right') ).addClass(PREVENT_CLOSE_CLASS);
 
 					var eName = supportsFastClick ? 'mfpFastClick' : 'click';
 					arrowLeft[eName](function() {
 						mfp.prev();
+<<<<<<< HEAD
 <<<<<<< HEAD
 					});
 					arrowRight[eName](function() {
@@ -5986,6 +6288,12 @@ $.magnificPopup.registerModule('gallery', {
 						mfp.next();
 					});	
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+					});			
+					arrowRight[eName](function() {
+						mfp.next();
+					});	
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 					// Polyfill for :before and :after (adds elements with classes mfp-a and mfp-b)
 					if(mfp.isIE7) {
@@ -6006,10 +6314,14 @@ $.magnificPopup.registerModule('gallery', {
 					mfp.preloadNearbyImages();
 					mfp._preloadTimeout = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				}, 16);
 =======
 				}, 16);		
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+				}, 16);		
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			});
 
 
@@ -6017,10 +6329,14 @@ $.magnificPopup.registerModule('gallery', {
 				_document.off(ns);
 				mfp.wrap.off('click'+ns);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 			
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+			
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				if(mfp.arrowLeft && supportsFastClick) {
 					mfp.arrowLeft.add(mfp.arrowRight).destroyMfpFastClick();
 				}
@@ -6028,10 +6344,14 @@ $.magnificPopup.registerModule('gallery', {
 			});
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		},
 =======
 		}, 
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+		}, 
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		next: function() {
 			mfp.direction = true;
 			mfp.index = _getLoopedId(mfp.index + 1);
@@ -6197,18 +6517,24 @@ $.magnificPopup.registerModule(RETINA_NS, {
  * To unbind:
  * $('.your-el').destroyMfpFastClick();
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  *
  * Note that it's a very basic and simple implementation, it blocks ghost click on the same element where it was bound.
  * If you need something more advanced, use plugin by FT Labs https://github.com/ftlabs/fastclick
  *
 =======
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  * 
  * 
  * Note that it's a very basic and simple implementation, it blocks ghost click on the same element where it was bound.
  * If you need something more advanced, use plugin by FT Labs https://github.com/ftlabs/fastclick
  * 
+<<<<<<< HEAD
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 
 (function() {
@@ -6289,6 +6615,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 /*>>fastclick*/
  _checkInstance(); }));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /*!
  *  GMAP3 Plugin for jQuery
@@ -6523,177 +6850,47 @@ function error() {
     }
   }
 }
+=======
+(function($) {
+    'use strict';
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
-/**
- * return true if mixed is usable as number
- **/
-function numeric(mixed) {
-  return (isNumber(mixed) || isString(mixed)) && mixed !== "" && !isNaN(mixed);
-}
+    /* Hide menu after click
+    ----------------------------------------------*/
+    $('.navbar-nav li a').click(function(event) {
+        $('.in').collapse('hide');
+    });
 
-/**
- * convert data to array
- **/
-function array(mixed) {
-  var k, a = [];
-  if (!isUndefined(mixed)) {
-    if (isObject(mixed)) {
-      if (isNumber(mixed.length)) {
-        a = mixed;
-      } else {
-        for (k in mixed) {
-          a.push(mixed[k]);
+    /* Smooth scroll to section
+    ----------------------------------------------*/
+    $('a.scroll[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top-70
+                }, 500);
+                return false;
+            }
         }
-      }
-    } else {
-      a.push(mixed);
-    }
-  }
-  return a;
-}
+    });
 
-/**
- * create a function to check a tag
- */
-function ftag(tag) {
-  if (tag) {
-    if (isFunction(tag)) {
-      return tag;
-    }
-    tag = array(tag);
-    return function (val) {
-      var i;
-      if (isUndefined(val)) {
-        return false;
-      }
-      if (isObject(val)) {
-        for (i = 0; i < val.length; i++) {
-          if ($.inArray(val[i], tag) >= 0) {
-            return true;
-          }
-        }
-        return false;
-      }
-      return $.inArray(val, tag) >= 0;
-    };
-  }
-}
+    /* Team slideshow
+    ----------------------------------------------*/
+    $("#team-carousel").owlCarousel({
+        autoPlay: 5000, //Set AutoPlay to 5 seconds
+        items : 3,
+        itemsDesktopSmall : [979,3],
+        stopOnHover: true
 
+    });
+  /* Tooltip
+    ----------------------------------------------*/
+    $('[data-toggle="tooltip"]').tooltip();
 
-/**
- * convert mixed [ lat, lng ] objet to gm.LatLng
- **/
-function toLatLng(mixed, emptyReturnMixed, noFlat) {
-  var empty = emptyReturnMixed ? mixed : null;
-  if (!mixed || (isString(mixed))) {
-    return empty;
-  }
-  // defined latLng
-  if (mixed.latLng) {
-    return toLatLng(mixed.latLng);
-  }
-  // gm.LatLng object
-  if (mixed instanceof gm.LatLng) {
-    return mixed;
-  }
-  // {lat:X, lng:Y} object
-  if (numeric(mixed.lat)) {
-    return new gm.LatLng(mixed.lat, mixed.lng);
-  }
-  // [X, Y] object
-  if (!noFlat && isArray(mixed)) {
-    if (!numeric(mixed[0]) || !numeric(mixed[1])) {
-      return empty;
-    }
-    return new gm.LatLng(mixed[0], mixed[1]);
-  }
-  return empty;
-}
-
-/**
- * convert mixed [ sw, ne ] object by gm.LatLngBounds
- **/
-function toLatLngBounds(mixed) {
-  var ne, sw;
-  if (!mixed || mixed instanceof gm.LatLngBounds) {
-    return mixed || null;
-  }
-  if (isArray(mixed)) {
-    if (mixed.length === 2) {
-      ne = toLatLng(mixed[0]);
-      sw = toLatLng(mixed[1]);
-    } else if (mixed.length === 4) {
-      ne = toLatLng([mixed[0], mixed[1]]);
-      sw = toLatLng([mixed[2], mixed[3]]);
-    }
-  } else {
-    if (("ne" in mixed) && ("sw" in mixed)) {
-      ne = toLatLng(mixed.ne);
-      sw = toLatLng(mixed.sw);
-    } else if (("n" in mixed) && ("e" in mixed) && ("s" in mixed) && ("w" in mixed)) {
-      ne = toLatLng([mixed.n, mixed.e]);
-      sw = toLatLng([mixed.s, mixed.w]);
-    }
-  }
-  if (ne && sw) {
-    return new gm.LatLngBounds(sw, ne);
-  }
-  return null;
-}
-
-/**
- * resolveLatLng
- **/
-function resolveLatLng(ctx, method, runLatLng, args, attempt) {
-  var latLng = runLatLng ? toLatLng(args.td, false, true) : false,
-    conf = latLng ?  {latLng: latLng} : (args.td.address ? (isString(args.td.address) ? {address: args.td.address} : args.td.address) : false),
-    cache = conf ? geocoderCache.get(conf) : false,
-    self = this;
-  if (conf) {
-    attempt = attempt || 0; // convert undefined to int
-    if (cache) {
-      args.latLng = cache.results[0].geometry.location;
-      args.results = cache.results;
-      args.status = cache.status;
-      method.apply(ctx, [args]);
-    } else {
-      if (conf.location) {
-        conf.location = toLatLng(conf.location);
-      }
-      if (conf.bounds) {
-        conf.bounds = toLatLngBounds(conf.bounds);
-      }
-      geocoder().geocode(
-        conf,
-        function (results, status) {
-          if (status === gm.GeocoderStatus.OK) {
-            geocoderCache.store(conf, {results: results, status: status});
-            args.latLng = results[0].geometry.location;
-            args.results = results;
-            args.status = status;
-            method.apply(ctx, [args]);
-          } else if ((status === gm.GeocoderStatus.OVER_QUERY_LIMIT) && (attempt < defaults.queryLimit.attempt)) {
-            setTimeout(
-              function () {
-                resolveLatLng.apply(self, [ctx, method, runLatLng, args, attempt + 1]);
-              },
-              defaults.queryLimit.delay + Math.floor(Math.random() * defaults.queryLimit.random)
-            );
-          } else {
-            error("geocode failed", status, conf);
-            args.latLng = args.results = false;
-            args.status = status;
-            method.apply(ctx, [args]);
-          }
-        }
-      );
-    }
-  } else {
-    args.latLng = toLatLng(args.td, false, true);
-    method.apply(ctx, [args]);
-  }
-}
-
+<<<<<<< HEAD
 function resolveAllLatLng(list, ctx, method, args) {
   var self = this, i = -1;
 
@@ -8913,6 +9110,8 @@ $.fn.gmap3 = function () {
     $('[data-toggle="tooltip"]').tooltip();
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
     /* Lightbox
     ----------------------------------------------*/
     $('.image-link').magnificPopup({
@@ -8921,6 +9120,7 @@ $.fn.gmap3 = function () {
 
     /* Google map
     ----------------------------------------------*/
+<<<<<<< HEAD
 <<<<<<< HEAD
     $(".map").each(function(){
 
@@ -8968,5 +9168,7 @@ $.fn.gmap3 = function () {
     });
 =======
 >>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
+=======
+>>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 })(jQuery);
