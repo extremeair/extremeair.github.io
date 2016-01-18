@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
-
-
-</style>
-
-
-=======
 <link rel="stylesheet" type="text/css" href="css/img.css">
 <script type="text/javascript">
 	$(document).ready(function() {               
@@ -35,7 +28,6 @@ function getText(name)
 	}
 </style>
 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
         <div class="container-fluid">
@@ -45,23 +37,14 @@ function getText(name)
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <!-- scroll button -->
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 <div id="square" class="scrollspy">
-=======
-<div id="square" class="scrollspy" style="margin-right: 10px;">
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
     <a href="#cntct">
         <div class="boxed-icon">
                 <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         </div>
     </a>
 </div>
-<<<<<<< HEAD
-=======
 <!-- logo -->
 <div id="logo1">
 	<a href="#top">
@@ -69,7 +52,6 @@ function getText(name)
 	</a>
 </div>
 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
     <div class="container-fluid">
 
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" id="cntct">
@@ -85,11 +67,7 @@ function getText(name)
                     <input name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-field">
-<<<<<<< HEAD
-                    <textarea name="comments" placeholder="Message" required></textarea>
-=======
                     <textarea name="comments" id="myTextarea" placeholder="Message" required></textarea>
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
                 </div>
                 <input type="submit" class="btn btn-default" value="Send">
             </form>
@@ -143,11 +121,6 @@ function getText(name)
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-<!-- End About -->
-
-=======
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 <!-- Start Our team -->
 <div id="allProducts" class="trending">
     <h2 class="section-title">All products</h2>
@@ -157,85 +130,6 @@ function getText(name)
     {% endfor %}
     </div>
 </div>
-<<<<<<< HEAD
- <!--Modal-->
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-        <div class="modal-body"> <p> hello </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- End Our team -->
-<!-- Start Gallery -->
-<div id="gallery" class="gallery">
-<!--
-Cement Feeding Systems:
-This system is designed to feed cement or fly ash for packaging in bags/bunkers/screening applications as per clients' need.  It's used for conveying or feeding  the cement or fly ash into silos at Batching Plant sites. We provide highly customized systems with several designs and technical specifications to suit specific needs of our clients. We use high quality components in accordance with international quality standards and that too with most affordable prices.
-
-Features:
-Stable vibration, reliable operation and long service life
-Smooth operation, great feeding capacity and high efficiency
-Continuous and even feeding of cement or other powder based materials
-Variable flow rate and operation mode
-Excellent continuity and adjustable vibrating force
-Dust-tight housing and high degree of sanitation
-Stable vibration, simple operation and long service life
-Low noise, power efficient and excellent adjustability
-
-Twin Lobe Roots Blower
-It's one of the type of positive displacement blower. They are high volume - low pressure units and used where high volume of air is required constantly at differential pressure. We manufacture wide range of blower with different capacity and with air cooled as well as water cooled option. We provide ready to install machine with all accessories as well as bare blower.
-
-Applications:
-Water Treatment Plants
-Pneumatic Conveying System
-Sewage Treatment Plants
-Central Vacuum Cleaning System
-Aeration in Storage silos
-Air Drying
-Blending
-Charging of Kilns in Cement and Steel Plants
-Effluent Treatment Plants
-Dewatering and many more.
-
-Water/Liquid Ring Vacuum Pump
-It's used in concentrating, dipping, vacuum evaporation, drying or other processing applications. Vacuum pump is used to pump specific kinds of air or other gas.
-
-Application:
-Fly Ash Handling
-Thermal & Atomic power plants
-Textile Industry
-Fertilizer plants
-Steel Plants
-Sugar Industry
-Mineral Washeries
-Chemical & Pharmaceutical Industry
-
-
- Management
-
-Nisarg Jani
-
-He's founder and director of the company. He is B.E. (Mechanical) and he has achieved his Bachelor's degree with distinction. He has done exemplary work in his last year project that was based on design advances in package boilers. He's having good knowledge of compressor and boiler designing. At very young age, he has mentored many students of master degree from reputed universities like Nirma as their external guide. He is overseeing vital areas of business such as vision setting, organizational structure development, broad policy matters and overall administration of the company.
-
-Milap Bhatt
-
-He's founder and director of the company. He holds M.Tech degree in CIM (Computer Integrated Manufacturing) from Nirma University. From the very beginning of his Bachelor's degree he's involved in compressor industry. His master degree's last year research work was based completely on the design aspects of roots blowers which led him to achieve stupendous grades in M.Tech. He is looking after day to day administration, quality control and inspection and supervising the whole manufacturing process.
-
-Regards,
-Nisarg Jani.-->
-
-=======
 
 {% for pump in site.data.products %}
 	<!-- Modal -->
@@ -269,7 +163,6 @@ re
 <!-- End Our team -->
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
     <h2 class="section-title">Gallery</h2>
     {% for images in site.data.gallery %}
         {% include pumpSmall.html %}
@@ -294,16 +187,10 @@ re
             </p>
     </div>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <div id="location" class="map">
 	<div style="width: 100%"><iframe width="100%" height="450" src="http://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=C-63%2C%20Shiv%20Industrial%20Park%2C%20Nr.%20Sarjan%20Ind.%2C%20Ambica%20Tube%20Compound%2C%20Vatva%2C%20Ahmedabad%20%E2%80%93%20382440%2C%20Gujarat%2C%20India.+(Extreme%20Air)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.maps.ie/create-google-map/">Embed Google Map</a> by <a href="http://www.maps.ie/">Maps.ie</a></iframe></div><br />
 </div>
 <!-- End Map -->
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 <div id="team" class="team">
         <h2 class="section-title">Team</h2>
 
@@ -320,13 +207,3 @@ re
 
 </div>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->
-=======
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463

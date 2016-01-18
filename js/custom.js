@@ -26,17 +26,7 @@
     /* Team slideshow
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
-<<<<<<< HEAD
-<<<<<<< HEAD
-
         autoPlay: 5000, //Set AutoPlay to 5 seconds
-
-=======
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
         items : 3,
         itemsDesktopSmall : [979,3],
         stopOnHover: true
@@ -54,55 +44,5 @@
 
     /* Google map
     ----------------------------------------------*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $(".map").each(function(){
-
-        var data_zoom = 17;
-
-        if ($(this).attr("data-zoom") !== undefined) {
-            data_zoom = parseInt($(this).attr("data-zoom"),10);
-        }
-
-        $(this).gmap3({
-            marker: {
-                values: [{
-                    address: $(this).attr("data-address"),
-                    data: $(this).attr("data-address-details")
-                }],
-                options:{
-                    draggable: false
-                },
-                events:{
-                    click: function(marker, event, context){
-                        var map = $(this).gmap3("get"),
-                        infowindow = $(this).gmap3({get:{name:"infowindow"}});
-                        if (infowindow){
-                            infowindow.open(map, marker);
-                            infowindow.setContent(context.data);
-                        } else {
-                            $(this).gmap3({
-                                infowindow:{
-                                    anchor:marker,
-                                    options:{content: context.data}
-                                }
-                            });
-                        }
-                    }
-                }
-            },
-            map: {
-                options: {
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    zoom: data_zoom,
-                    scrollwheel: false
-                }
-            }
-        });
-    });
-=======
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 })(jQuery);

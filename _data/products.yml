@@ -1,23 +1,6 @@
 - id: 1
   name: Cement feeding system
   image: Cement Feeding.jpg
-<<<<<<< HEAD
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- id: 2
-  name: Roots Blower
-  image: Roots Blower1.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- id: 3
-<<<<<<< HEAD
-  name: Vacuum Pump
-  image: Vacuum Pump.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-=======
   image1: gallery-small.jpg
   image2: gallery-small2.jpg
   alt: please insert proper image
@@ -52,8 +35,6 @@
             Effluent Treatment Plants
             Dewatering and many more.
 - id: 3
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
   name: Vacuum Pump
   image: Vacuum Pump.jpg
   image1: gallery-small.jpg
@@ -61,7 +42,6 @@
   alt: please insert proper image
   email: email@gmail.com
   phone: 9659 43 21
-<<<<<<< HEAD
   content: |
             Water/Liquid Ring Vacuum Pump
             It's used in concentrating, dipping, vacuum evaporation, drying or other processing applications. Vacuum pump is used to pump specific kinds of air or other gas.
@@ -77,6 +57,3 @@
             Chemical & Pharmaceutical Industry
 
 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463

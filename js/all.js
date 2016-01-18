@@ -3562,15 +3562,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($lazyImg.get(0)) || isBackgroundImg === true) {
                     showImage();
-<<<<<<< HEAD
-<<<<<<< HEAD
-                } else if (iterations <= 100) {//if image loads in less than 10 seconds
-=======
                 } else if (iterations <= 100) {//if image loads in less than 10 seconds 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-                } else if (iterations <= 100) {//if image loads in less than 10 seconds 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
                     window.setTimeout(checkLazyImage, 100);
                 } else {
                     showImage();
@@ -3599,15 +3591,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($currentimg.get(0))) {
                     addHeight();
-<<<<<<< HEAD
-<<<<<<< HEAD
-                } else if (iterations <= 100) { //if image loads in less than 10 seconds
-=======
                 } else if (iterations <= 100) { //if image loads in less than 10 seconds 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-                } else if (iterations <= 100) { //if image loads in less than 10 seconds 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
                     window.setTimeout(checkImage, 100);
                 } else {
                     base.wrapperOuter.css("height", ""); //Else remove height attribute
@@ -3895,29 +3879,6 @@ if (typeof Object.create !== "function") {
 /*! Magnific Popup - v1.0.0 - 2015-01-03
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2015 Dmitry Semenov; */
-<<<<<<< HEAD
-<<<<<<< HEAD
-;(function (factory) {
-if (typeof define === 'function' && define.amd) {
- // AMD. Register as an anonymous module.
- define(['jquery'], factory);
- } else if (typeof exports === 'object') {
- // Node/CommonJS
- factory(require('jquery'));
- } else {
- // Browser globals
- factory(window.jQuery || window.Zepto);
- }
- }(function($) {
-
-/*>>core*/
-/**
- *
- * Magnific Popup Core JS file
- *
-=======
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 ;(function (factory) { 
 if (typeof define === 'function' && define.amd) { 
  // AMD. Register as an anonymous module. 
@@ -3936,10 +3897,6 @@ if (typeof define === 'function' && define.amd) {
  * 
  * Magnific Popup Core JS file
  * 
-<<<<<<< HEAD
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 
 
@@ -3961,15 +3918,7 @@ var CLOSE_EVENT = 'Close',
 
 
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
- * Private vars
-=======
  * Private vars 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
- * Private vars 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 /*jshint -W079 */
 var mfp, // As we have only one instance of MagnificPopup object, we define it locally to not to use 'this'
@@ -4038,35 +3987,15 @@ var _mfpOn = function(name, f) {
 			v = ['ms','O','Moz','Webkit']; // 'v' for vendor
 
 		if( s['transition'] !== undefined ) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-			return true;
-		}
-
-=======
 			return true; 
 		}
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			return true; 
-		}
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		while( v.length ) {
 			if( v.pop() + 'Transition' in s ) {
 				return true;
 			}
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		return false;
 	};
 
@@ -4080,28 +4009,12 @@ MagnificPopup.prototype = {
 	constructor: MagnificPopup,
 
 	/**
-<<<<<<< HEAD
-<<<<<<< HEAD
-	 * Initializes Magnific Popup plugin.
-=======
 	 * Initializes Magnific Popup plugin. 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	 * Initializes Magnific Popup plugin. 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	 * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
 	 */
 	init: function() {
 		var appVersion = navigator.appVersion;
-<<<<<<< HEAD
-<<<<<<< HEAD
-		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1;
-=======
 		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1; 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		mfp.isIE7 = appVersion.indexOf("MSIE 7.") !== -1; 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.isIE8 = appVersion.indexOf("MSIE 8.") !== -1;
 		mfp.isLowIE = mfp.isIE7 || mfp.isIE8;
 		mfp.isAndroid = (/android/gi).test(appVersion);
@@ -4124,15 +4037,7 @@ MagnificPopup.prototype = {
 
 		var i;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		if(data.isObj === false) {
-=======
 		if(data.isObj === false) { 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		if(data.isObj === false) { 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			// convert jQuery collection to array to avoid conflicts later
 			mfp.items = data.items.toArray();
 
@@ -4159,18 +4064,8 @@ MagnificPopup.prototype = {
 			mfp.updateItemHTML();
 			return;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-		mfp.types = [];
-=======
 		
 		mfp.types = []; 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
-		mfp.types = []; 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		_wrapClasses = '';
 		if(data.mainEl && data.mainEl.length) {
 			mfp.ev = data.mainEl.eq(0);
@@ -4189,15 +4084,7 @@ MagnificPopup.prototype = {
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data );
-=======
 		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data ); 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data ); 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.fixedContentPos = mfp.st.fixedContentPos === 'auto' ? !mfp.probablyMobile : mfp.st.fixedContentPos;
 
 		if(mfp.st.modal) {
@@ -4206,15 +4093,7 @@ MagnificPopup.prototype = {
 			mfp.st.showCloseBtn = false;
 			mfp.st.enableEscapeKey = false;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		// Building markup
 		// main containers are created only once
@@ -4266,15 +4145,7 @@ MagnificPopup.prototype = {
 			_wrapClasses += ' mfp-align-top';
 		}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(mfp.fixedContentPos) {
 			mfp.wrap.css({
@@ -4283,15 +4154,7 @@ MagnificPopup.prototype = {
 				overflowY: mfp.st.overflowY
 			});
 		} else {
-<<<<<<< HEAD
-<<<<<<< HEAD
-			mfp.wrap.css({
-=======
 			mfp.wrap.css({ 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			mfp.wrap.css({ 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				top: _window.scrollTop(),
 				position: 'absolute'
 			});
@@ -4303,15 +4166,7 @@ MagnificPopup.prototype = {
 			});
 		}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(mfp.st.enableEscapeKey) {
 			// Close on ESC key
@@ -4330,15 +4185,7 @@ MagnificPopup.prototype = {
 		if(!mfp.st.closeOnContentClick) {
 			_wrapClasses += ' mfp-auto-cursor';
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(_wrapClasses)
 			mfp.wrap.addClass(_wrapClasses);
 
@@ -4346,15 +4193,7 @@ MagnificPopup.prototype = {
 		// this triggers recalculation of layout, so we get it once to not to trigger twice
 		var windowHeight = mfp.wH = _window.height();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var windowStyles = {};
 
 		if( mfp.fixedContentPos ) {
@@ -4375,18 +4214,8 @@ MagnificPopup.prototype = {
 			}
 		}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
 		
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var classesToadd = mfp.st.mainClass;
 		if(mfp.isIE7) {
 			classesToadd += ' mfp-ie7';
@@ -4402,38 +4231,16 @@ MagnificPopup.prototype = {
 
 		// remove scrollbar, add margin e.t.c
 		$('html').css(windowStyles);
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		// add everything to DOM
 		mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
 
 		// Save last focused element
 		mfp._lastFocusedEl = document.activeElement;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-		// Wait for next cycle to allow CSS transition
-		setTimeout(function() {
-
-=======
 		
 		// Wait for next cycle to allow CSS transition
 		setTimeout(function() {
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
-		// Wait for next cycle to allow CSS transition
-		setTimeout(function() {
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(mfp.content) {
 				mfp._addClassToMFP(READY_CLASS);
 				mfp._setFocus();
@@ -4441,15 +4248,7 @@ MagnificPopup.prototype = {
 				// if content is not defined (not loaded e.t.c) we add class only for BG
 				mfp.bgOverlay.addClass(READY_CLASS);
 			}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			// Trap the focus in popup
 			_document.on('focusin' + EVENT_NS, mfp._onFocusIn);
 
@@ -4508,15 +4307,7 @@ MagnificPopup.prototype = {
 			}
 			$('html').css(windowStyles);
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		_document.off('keyup' + EVENT_NS + ' focusin' + EVENT_NS);
 		mfp.ev.off(EVENT_NS);
 
@@ -4536,30 +4327,14 @@ MagnificPopup.prototype = {
 		if(mfp._lastFocusedEl) {
 			$(mfp._lastFocusedEl).focus(); // put tab focus back
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-		mfp.currItem = null;
-=======
 		mfp.currItem = null;	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		mfp.currItem = null;	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		mfp.content = null;
 		mfp.currTemplate = null;
 		mfp.prevHeight = 0;
 
 		_mfpTrigger(AFTER_CLOSE_EVENT);
 	},
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	updateSize: function(winHeight) {
 
 		if(mfp.isIOS) {
@@ -4596,42 +4371,17 @@ MagnificPopup.prototype = {
 			item = mfp.parseEl( mfp.index );
 		}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		var type = item.type;
-=======
 		var type = item.type;	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		var type = item.type;	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		_mfpTrigger('BeforeChange', [mfp.currItem ? mfp.currItem.type : '', type]);
 		// BeforeChange event works like so:
 		// _mfpOn('BeforeChange', function(e, prevType, newType) { });
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
-		mfp.currItem = item;
-
-
-<<<<<<< HEAD
-
-
-=======
 		
 		mfp.currItem = item;
 
 		
 
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(!mfp.currTemplate[type]) {
 			var markup = mfp.st[type] ? mfp.st[type].markup : false;
@@ -4650,15 +4400,7 @@ MagnificPopup.prototype = {
 		if(_prevContentType && _prevContentType !== item.type) {
 			mfp.container.removeClass('mfp-'+_prevContentType+'-holder');
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		var newContent = mfp['get' + type.charAt(0).toUpperCase() + type.slice(1)](item, mfp.currTemplate[type]);
 		mfp.appendContent(newContent, type);
 
@@ -4666,15 +4408,7 @@ MagnificPopup.prototype = {
 
 		_mfpTrigger(CHANGE_EVENT, item);
 		_prevContentType = item.type;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		// Append container back after its content changed
 		mfp.container.prepend(mfp.contentContainer);
 
@@ -4687,15 +4421,7 @@ MagnificPopup.prototype = {
 	 */
 	appendContent: function(newContent, type) {
 		mfp.content = newContent;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(newContent) {
 			if(mfp.st.showCloseBtn && mfp.st.closeBtnInside &&
 				mfp.currTemplate[type] === true) {
@@ -4718,15 +4444,7 @@ MagnificPopup.prototype = {
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	/**
 	 * Creates Magnific Popup data object based on given data
 	 * @param  {int} index Index of item to parse
@@ -4780,27 +4498,11 @@ MagnificPopup.prototype = {
 
 		if(!options) {
 			options = {};
-<<<<<<< HEAD
-<<<<<<< HEAD
-		}
-
-		var eName = 'click.magnificPopup';
-		options.mainEl = el;
-
-=======
 		} 
 
 		var eName = 'click.magnificPopup';
 		options.mainEl = el;
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		} 
-
-		var eName = 'click.magnificPopup';
-		options.mainEl = el;
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(options.items) {
 			options.isObj = true;
 			el.off(eName).on(eName, eHandler);
@@ -4835,15 +4537,7 @@ MagnificPopup.prototype = {
 				}
 			}
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		if(e.type) {
 			e.preventDefault();
 
@@ -4852,15 +4546,7 @@ MagnificPopup.prototype = {
 				e.stopPropagation();
 			}
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		options.el = $(e.mfpEl);
 		if(options.delegate) {
@@ -5028,30 +4714,14 @@ $.magnificPopup = {
 	modules: [],
 
 	open: function(options, index) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-		_checkInstance();
-=======
 		_checkInstance();	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		_checkInstance();	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		if(!options) {
 			options = {};
 		} else {
 			options = $.extend(true, {}, options);
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		options.isObj = true;
 		options.index = index || 0;
@@ -5066,23 +4736,6 @@ $.magnificPopup = {
 		if(module.options) {
 			$.magnificPopup.defaults[name] = module.options;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-		$.extend(this.proto, module.proto);
-=======
-		$.extend(this.proto, module.proto);			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
-		this.modules.push(name);
-	},
-
-	defaults: {
-
-		// Info about options is in docs:
-		// http://dimsemenov.com/plugins/magnific-popup/documentation.html#options
-<<<<<<< HEAD
-
-		disableOn: 0,
-=======
 		$.extend(this.proto, module.proto);			
 		this.modules.push(name);
 	},
@@ -5093,11 +4746,6 @@ $.magnificPopup = {
 		// http://dimsemenov.com/plugins/magnific-popup/documentation.html#options
 		
 		disableOn: 0,	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
-		disableOn: 0,	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		key: null,
 
@@ -5108,28 +4756,12 @@ $.magnificPopup = {
 		preloader: true,
 
 		focus: '', // CSS selector of input to focus after popup is opened
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		closeOnContentClick: false,
 
 		closeOnBgClick: true,
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		closeBtnInside: true,
-=======
 		closeBtnInside: true, 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		closeBtnInside: true, 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 		showCloseBtn: true,
 
@@ -5138,18 +4770,6 @@ $.magnificPopup = {
 		modal: false,
 
 		alignTop: false,
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-		removalDelay: 0,
-
-		prependTo: null,
-
-		fixedContentPos: 'auto',
-
-=======
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	
 		removalDelay: 0,
 
@@ -5157,10 +4777,6 @@ $.magnificPopup = {
 		
 		fixedContentPos: 'auto', 
 	
-<<<<<<< HEAD
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		fixedBgPos: 'auto',
 
 		overflowY: 'auto',
@@ -5207,21 +4823,9 @@ $.fn.magnificPopup = function(options) {
 	} else {
 		// clone options obj
 		options = $.extend(true, {}, options);
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-		/*
-		 * As Zepto doesn't support .data() method for objects
-=======
 		
 		/*
 		 * As Zepto doesn't support .data() method for objects 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		
-		/*
-		 * As Zepto doesn't support .data() method for objects 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		 * and it works only in normal browsers
 		 * we assign "options" object directly to the DOM element. FTW!
 		 */
@@ -5263,15 +4867,7 @@ console.log('Test #2:', performance.now() - start);
 
 var INLINE_NS = 'inline',
 	_hiddenClass,
-<<<<<<< HEAD
-<<<<<<< HEAD
-	_inlinePlaceholder,
-=======
 	_inlinePlaceholder, 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	_inlinePlaceholder, 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	_lastInlineElement,
 	_putInlineElementsBack = function() {
 		if(_lastInlineElement) {
@@ -5420,30 +5016,14 @@ $.magnificPopup.registerModule(AJAX_NS, {
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 /*>>ajax*/
 
 /*>>image*/
 var _imgInterval,
 	_getTitle = function(item) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-		if(item.data && item.data.title !== undefined)
-=======
 		if(item.data && item.data.title !== undefined) 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		if(item.data && item.data.title !== undefined) 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			return item.data.title;
 
 		var src = mfp.st.image.titleSrc;
@@ -5474,15 +5054,7 @@ $.magnificPopup.registerModule('image', {
 					'</figure>'+
 				'</div>',
 		cursor: 'mfp-zoom-out-cur',
-<<<<<<< HEAD
-<<<<<<< HEAD
-		titleSrc: 'title',
-=======
 		titleSrc: 'title', 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		titleSrc: 'title', 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		verticalFit: true,
 		tError: '<a href="%url%">The image</a> could not be loaded.'
 	},
@@ -5527,29 +5099,13 @@ $.magnificPopup.registerModule('image', {
 		},
 		_onImageHasSize: function(item) {
 			if(item.img) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				item.hasSize = true;
 
 				if(_imgInterval) {
 					clearInterval(_imgInterval);
 				}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				item.isCheckingImgSize = false;
 
 				_mfpTrigger('ImageHasSize', item);
@@ -5557,15 +5113,7 @@ $.magnificPopup.registerModule('image', {
 				if(item.imgHidden) {
 					if(mfp.content)
 						mfp.content.removeClass('mfp-loading');
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 					
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					item.imgHidden = false;
 				}
 
@@ -5618,15 +5166,7 @@ $.magnificPopup.registerModule('image', {
 					if(item) {
 						if (item.img[0].complete) {
 							item.img.off('.mfploader');
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 							
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-							
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 							if(item === mfp.currItem){
 								mfp._onImageHasSize(item);
 
@@ -5637,15 +5177,7 @@ $.magnificPopup.registerModule('image', {
 							item.loaded = true;
 
 							_mfpTrigger('ImageLoadComplete');
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 							
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-							
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 						}
 						else {
 							// if image complete check fails 200 times (20 sec), we assume that there was an error.
@@ -5695,15 +5227,7 @@ $.magnificPopup.registerModule('image', {
 				img = item.img[0];
 				if(img.naturalWidth > 0) {
 					item.hasSize = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
-				} else if(!img.width) {
-=======
 				} else if(!img.width) {										
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				} else if(!img.width) {										
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					item.hasSize = false;
 				}
 			}
@@ -5735,15 +5259,7 @@ $.magnificPopup.registerModule('image', {
 				item.imgHidden = true;
 				template.addClass('mfp-loading');
 				mfp.findImageSize(item);
-<<<<<<< HEAD
-<<<<<<< HEAD
-			}
-=======
 			} 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			} 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 			return template;
 		}
@@ -5760,15 +5276,7 @@ var hasMozTransform,
 		if(hasMozTransform === undefined) {
 			hasMozTransform = document.createElement('p').style.MozTransform !== undefined;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-		return hasMozTransform;
-=======
 		return hasMozTransform;		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		return hasMozTransform;		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 	};
 
 $.magnificPopup.registerModule('zoom', {
@@ -5788,15 +5296,7 @@ $.magnificPopup.registerModule('zoom', {
 			var zoomSt = mfp.st.zoom,
 				ns = '.zoom',
 				image;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(!zoomSt.enabled || !mfp.supportsTransition) {
 				return;
 			}
@@ -5832,15 +5332,7 @@ $.magnificPopup.registerModule('zoom', {
 					mfp.content.css('visibility', 'hidden');
 
 					// Basically, all code below does is clones existing image, puts in on top of the current one and animated it
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 					
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					image = mfp._getItemToZoom();
 
 					if(!image) {
@@ -5848,18 +5340,8 @@ $.magnificPopup.registerModule('zoom', {
 						return;
 					}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-					animatedImg = getElToAnimate(image);
-
-=======
 					animatedImg = getElToAnimate(image); 
 					
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					animatedImg = getElToAnimate(image); 
-					
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					animatedImg.css( mfp._getOffset() );
 
 					mfp.wrap.append(animatedImg);
@@ -5874,15 +5356,7 @@ $.magnificPopup.registerModule('zoom', {
 								animatedImg.remove();
 								image = animatedImg = null;
 								_mfpTrigger('ZoomAnimationEnded');
-<<<<<<< HEAD
-<<<<<<< HEAD
-							}, 16); // avoid blink when switching images
-=======
 							}, 16); // avoid blink when switching images 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-							}, 16); // avoid blink when switching images 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 						}, duration); // this timeout equals animation duration
 
@@ -5906,30 +5380,12 @@ $.magnificPopup.registerModule('zoom', {
 						}
 						animatedImg = getElToAnimate(image);
 					}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-					animatedImg.css( mfp._getOffset(true) );
-					mfp.wrap.append(animatedImg);
-					mfp.content.css('visibility', 'hidden');
-
-=======
 					
 					
 					animatedImg.css( mfp._getOffset(true) );
 					mfp.wrap.append(animatedImg);
 					mfp.content.css('visibility', 'hidden');
 					
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					
-					
-					animatedImg.css( mfp._getOffset(true) );
-					mfp.wrap.append(animatedImg);
-					mfp.content.css('visibility', 'hidden');
-					
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 					setTimeout(function() {
 						animatedImg.css( mfp._getOffset() );
 					}, 16);
@@ -5944,15 +5400,7 @@ $.magnificPopup.registerModule('zoom', {
 						animatedImg.remove();
 					}
 					image = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-				}
-=======
 				}	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				}	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			});
 		},
 
@@ -5984,15 +5432,7 @@ $.magnificPopup.registerModule('zoom', {
 
 
 			/*
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			Animating left + top + width/height looks glitchy in Firefox, but perfect in Chrome. And vice-versa.
 
 			 */
@@ -6023,27 +5463,11 @@ $.magnificPopup.registerModule('zoom', {
 
 var IFRAME_NS = 'iframe',
 	_emptyPage = '//about:blank',
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-	_fixIframeBugs = function(isShowing) {
-		if(mfp.currTemplate[IFRAME_NS]) {
-			var el = mfp.currTemplate[IFRAME_NS].find('iframe');
-			if(el.length) {
-=======
 	
 	_fixIframeBugs = function(isShowing) {
 		if(mfp.currTemplate[IFRAME_NS]) {
 			var el = mfp.currTemplate[IFRAME_NS].find('iframe');
 			if(el.length) { 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-	
-	_fixIframeBugs = function(isShowing) {
-		if(mfp.currTemplate[IFRAME_NS]) {
-			var el = mfp.currTemplate[IFRAME_NS].find('iframe');
-			if(el.length) { 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				// reset src after the popup is closed to avoid "video keeps playing after popup is closed" bug
 				if(!isShowing) {
 					el[0].src = _emptyPage;
@@ -6070,18 +5494,8 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 		// we don't care and support only one default type of URL by default
 		patterns: {
 			youtube: {
-<<<<<<< HEAD
-<<<<<<< HEAD
-				index: 'youtube.com',
-				id: 'v=',
-=======
 				index: 'youtube.com', 
 				id: 'v=', 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				index: 'youtube.com', 
-				id: 'v=', 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				src: '//www.youtube.com/embed/%id%?autoplay=1'
 			},
 			vimeo: {
@@ -6106,15 +5520,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 						_fixIframeBugs(); // iframe if removed
 					} else if(newType === IFRAME_NS) {
 						_fixIframeBugs(true); // iframe is showing
-<<<<<<< HEAD
-<<<<<<< HEAD
-					}
-=======
 					} 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					} 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				}// else {
 					// iframe source is switched, don't do anything
 				//}
@@ -6128,15 +5534,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 		getIframe: function(item, template) {
 			var embedSrc = item.src;
 			var iframeSt = mfp.st.iframe;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			$.each(iframeSt.patterns, function() {
 				if(embedSrc.indexOf( this.index ) > -1) {
 					if(this.id) {
@@ -6150,15 +5548,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 					return false; // break;
 				}
 			});
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			var dataObj = {};
 			if(iframeSt.srcAction) {
 				dataObj[iframeSt.srcAction] = embedSrc;
@@ -6215,15 +5605,7 @@ $.magnificPopup.registerModule('gallery', {
 				supportsFastClick = Boolean($.fn.mfpFastClick);
 
 			mfp.direction = true; // true - next, false - prev
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			if(!gSt || !gSt.enabled ) return false;
 
 			_wrapClasses += ' mfp-gallery';
@@ -6262,38 +5644,16 @@ $.magnificPopup.registerModule('gallery', {
 			_mfpOn('BuildControls' + ns, function() {
 				if(mfp.items.length > 1 && gSt.arrows && !mfp.arrowLeft) {
 					var markup = gSt.arrowMarkup,
-<<<<<<< HEAD
-<<<<<<< HEAD
-						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),
-=======
 						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-						arrowLeft = mfp.arrowLeft = $( markup.replace(/%title%/gi, gSt.tPrev).replace(/%dir%/gi, 'left') ).addClass(PREVENT_CLOSE_CLASS),			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 						arrowRight = mfp.arrowRight = $( markup.replace(/%title%/gi, gSt.tNext).replace(/%dir%/gi, 'right') ).addClass(PREVENT_CLOSE_CLASS);
 
 					var eName = supportsFastClick ? 'mfpFastClick' : 'click';
 					arrowLeft[eName](function() {
 						mfp.prev();
-<<<<<<< HEAD
-<<<<<<< HEAD
-					});
-					arrowRight[eName](function() {
-						mfp.next();
-					});
-=======
 					});			
 					arrowRight[eName](function() {
 						mfp.next();
 					});	
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-					});			
-					arrowRight[eName](function() {
-						mfp.next();
-					});	
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 					// Polyfill for :before and :after (adds elements with classes mfp-a and mfp-b)
 					if(mfp.isIE7) {
@@ -6313,45 +5673,21 @@ $.magnificPopup.registerModule('gallery', {
 				mfp._preloadTimeout = setTimeout(function() {
 					mfp.preloadNearbyImages();
 					mfp._preloadTimeout = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-				}, 16);
-=======
 				}, 16);		
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-				}, 16);		
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 			});
 
 
 			_mfpOn(CLOSE_EVENT+ns, function() {
 				_document.off(ns);
 				mfp.wrap.off('click'+ns);
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 			
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-			
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 				if(mfp.arrowLeft && supportsFastClick) {
 					mfp.arrowLeft.add(mfp.arrowRight).destroyMfpFastClick();
 				}
 				mfp.arrowRight = mfp.arrowLeft = null;
 			});
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		},
-=======
 		}, 
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
-		}, 
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 		next: function() {
 			mfp.direction = true;
 			mfp.index = _getLoopedId(mfp.index + 1);
@@ -6516,25 +5852,11 @@ $.magnificPopup.registerModule(RETINA_NS, {
  *
  * To unbind:
  * $('.your-el').destroyMfpFastClick();
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
- *
- * Note that it's a very basic and simple implementation, it blocks ghost click on the same element where it was bound.
- * If you need something more advanced, use plugin by FT Labs https://github.com/ftlabs/fastclick
- *
-=======
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  * 
  * 
  * Note that it's a very basic and simple implementation, it blocks ghost click on the same element where it was bound.
  * If you need something more advanced, use plugin by FT Labs https://github.com/ftlabs/fastclick
  * 
-<<<<<<< HEAD
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
  */
 
 (function() {
@@ -6615,2462 +5937,6 @@ $.magnificPopup.registerModule(RETINA_NS, {
 /*>>fastclick*/
  _checkInstance(); }));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*!
- *  GMAP3 Plugin for jQuery
- *  Version   : 6.0.0
- *  Date      : 2014-04-25
- *  Author    : DEMONTE Jean-Baptiste
- *  Contact   : jbdemonte@gmail.com
- *  Web site  : http://gmap3.net
- *  Licence   : GPL v3 : http://www.gnu.org/licenses/gpl.html
- *
- *  Copyright (c) 2010-2014 Jean-Baptiste DEMONTE
- *  All rights reserved.
- */
-;(function ($, undef) {
-
-var defaults, gm,
-  gId = 0,
-  isFunction = $.isFunction,
-  isArray = $.isArray;
-
-function isObject(m) {
-  return typeof m === "object";
-}
-
-function isString(m) {
-  return typeof m === "string";
-}
-
-function isNumber(m) {
-  return typeof m === "number";
-}
-
-function isUndefined(m) {
-  return m === undef;
-}
-
-/**
- * Initialize default values
- * defaults are defined at first gmap3 call to pass the rails asset pipeline and jasmine while google library is not yet loaded
- */
-function initDefaults() {
-  gm = google.maps;
-  if (!defaults) {
-    defaults = {
-      verbose: false,
-      queryLimit: {
-        attempt: 5,
-        delay: 250, // setTimeout(..., delay + random);
-        random: 250
-      },
-      classes: (function () {
-        var r = {};
-        $.each("Map Marker InfoWindow Circle Rectangle OverlayView StreetViewPanorama KmlLayer TrafficLayer BicyclingLayer GroundOverlay StyledMapType ImageMapType".split(" "), function (_, k) {
-          r[k] = gm[k];
-        });
-        return r;
-      }()),
-      map: {
-        mapTypeId : gm.MapTypeId.ROADMAP,
-        center: [46.578498, 2.457275],
-        zoom: 2
-      },
-      overlay: {
-        pane: "floatPane",
-        content: "",
-        offset: {
-          x: 0,
-          y: 0
-        }
-      },
-      geoloc: {
-        getCurrentPosition: {
-          maximumAge: 60000,
-          timeout: 5000
-        }
-      }
-    }
-  }
-}
-
-
-/**
- * Generate a new ID if not defined
- * @param id {string} (optional)
- * @param simulate {boolean} (optional)
- * @returns {*}
- */
-function globalId(id, simulate) {
-  return isUndefined(id) ? "gmap3_" + (simulate ? gId + 1 : ++gId) : id;
-}
-
-
-/**
- * Return true if current version of Google Maps is equal or above to these in parameter
- * @param version {string} Minimal version required
- * @return {Boolean}
- */
-function googleVersionMin(version) {
-  var i,
-    gmVersion = gm.version.split(".");
-  version = version.split(".");
-  for (i = 0; i < gmVersion.length; i++) {
-    gmVersion[i] = parseInt(gmVersion[i], 10);
-  }
-  for (i = 0; i < version.length; i++) {
-    version[i] = parseInt(version[i], 10);
-    if (gmVersion.hasOwnProperty(i)) {
-      if (gmVersion[i] < version[i]) {
-        return false;
-      }
-    } else {
-      return false;
-    }
-  }
-  return true;
-}
-
-
-/**
- * attach events from a container to a sender
- * td[
- *  events => { eventName => function, }
- *  onces  => { eventName => function, }
- *  data   => mixed data
- * ]
- **/
-function attachEvents($container, args, sender, id, senders) {
-  var td = args.td || {},
-    context = {
-      id: id,
-      data: td.data,
-      tag: td.tag
-    };
-  function bind(items, handler) {
-    if (items) {
-      $.each(items, function (name, f) {
-        var self = $container, fn = f;
-        if (isArray(f)) {
-          self = f[0];
-          fn = f[1];
-        }
-        handler(sender, name, function (event) {
-          fn.apply(self, [senders || sender, event, context]);
-        });
-      });
-    }
-  }
-  bind(td.events, gm.event.addListener);
-  bind(td.onces, gm.event.addListenerOnce);
-}
-
-/**
- * Extract keys from object
- * @param obj {object}
- * @returns {Array}
- */
-function getKeys(obj) {
-  var k, keys = [];
-  for (k in obj) {
-    if (obj.hasOwnProperty(k)) {
-      keys.push(k);
-    }
-  }
-  return keys;
-}
-
-/**
- * copy a key content
- **/
-function copyKey(target, key) {
-  var i,
-    args = arguments;
-  for (i = 2; i < args.length; i++) {
-    if (key in args[i]) {
-      if (args[i].hasOwnProperty(key)) {
-        target[key] = args[i][key];
-        return;
-      }
-    }
-  }
-}
-
-/**
- * Build a tuple
- * @param args {object}
- * @param value {object}
- * @returns {object}
- */
-function tuple(args, value) {
-  var k, i,
-    keys = ["data", "tag", "id", "events",  "onces"],
-    td = {};
-
-  // "copy" the common data
-  if (args.td) {
-    for (k in args.td) {
-      if (args.td.hasOwnProperty(k)) {
-        if ((k !== "options") && (k !== "values")) {
-          td[k] = args.td[k];
-        }
-      }
-    }
-  }
-  // "copy" some specific keys from value first else args.td
-  for (i = 0; i < keys.length; i++) {
-    copyKey(td, keys[i], value, args.td);
-  }
-
-  // create an extended options
-  td.options = $.extend({}, args.opts || {}, value.options || {});
-
-  return td;
-}
-
-/**
- * Log error
- */
-function error() {
-  if (defaults.verbose) {
-    var i, err = [];
-    if (window.console && (isFunction(console.error))) {
-      for (i = 0; i < arguments.length; i++) {
-        err.push(arguments[i]);
-      }
-      console.error.apply(console, err);
-    } else {
-      err = "";
-      for (i = 0; i < arguments.length; i++) {
-        err += arguments[i].toString() + " ";
-      }
-      alert(err);
-    }
-  }
-}
-=======
-(function($) {
-    'use strict';
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
-
-    /* Hide menu after click
-    ----------------------------------------------*/
-    $('.navbar-nav li a').click(function(event) {
-        $('.in').collapse('hide');
-    });
-
-    /* Smooth scroll to section
-    ----------------------------------------------*/
-    $('a.scroll[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top-70
-                }, 500);
-                return false;
-            }
-        }
-    });
-
-    /* Team slideshow
-    ----------------------------------------------*/
-    $("#team-carousel").owlCarousel({
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
-        items : 3,
-        itemsDesktopSmall : [979,3],
-        stopOnHover: true
-
-    });
-  /* Tooltip
-    ----------------------------------------------*/
-    $('[data-toggle="tooltip"]').tooltip();
-
-<<<<<<< HEAD
-function resolveAllLatLng(list, ctx, method, args) {
-  var self = this, i = -1;
-
-  function resolve() {
-    // look for next address to resolve
-    do {
-      i++;
-    } while ((i < list.length) && !("address" in list[i]));
-
-    // no address found, so run method
-    if (i >= list.length) {
-      method.apply(ctx, [args]);
-      return;
-    }
-
-    resolveLatLng(
-      self,
-      function (args) {
-        delete args.td;
-        $.extend(list[i], args);
-        resolve.apply(self, []); // resolve next (using apply avoid too much recursion)
-      },
-      true,
-      {td: list[i]}
-    );
-  }
-  resolve();
-}
-
-
-
-/**
- * geolocalise the user and return a LatLng
- **/
-function geoloc(ctx, method, args) {
-  var is_echo = false; // sometime, a kind of echo appear, this trick will notice once the first call is run to ignore the next one
-  if (navigator && navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      function (pos) {
-        if (!is_echo) {
-          is_echo = true;
-          args.latLng = new gm.LatLng(pos.coords.latitude, pos.coords.longitude);
-          method.apply(ctx, [args]);
-        }
-      },
-      function () {
-        if (!is_echo) {
-          is_echo = true;
-          args.latLng = false;
-          method.apply(ctx, [args]);
-        }
-      },
-      args.opts.getCurrentPosition
-    );
-  } else {
-    args.latLng = false;
-    method.apply(ctx, [args]);
-  }
-}
-
-/**
- * Return true if get is a direct call
- * it means :
- *   - get is the only key
- *   - get has no callback
- * @param obj {Object} The request to check
- * @return {Boolean}
- */
-function isDirectGet(obj) {
-  var k,
-    result = false;
-  if (isObject(obj) && obj.hasOwnProperty("get")) {
-    for (k in obj) {
-      if (k !== "get") {
-        return false;
-      }
-    }
-    result = !obj.get.hasOwnProperty("callback");
-  }
-  return result;
-}
-var services = {},
-  geocoderCache = new GeocoderCache();
-
-
-function geocoder(){
-  if (!services.geocoder) {
-    services.geocoder = new gm.Geocoder();
-  }
-  return services.geocoder;
-}
-/**
- * Class GeocoderCache
- * @constructor
- */
-function GeocoderCache() {
-  var cache = [];
-
-  this.get = function (request) {
-    if (cache.length) {
-      var i, j, k, item, eq,
-        keys = getKeys(request);
-      for (i = 0; i < cache.length; i++) {
-        item = cache[i];
-        eq = keys.length === item.keys.length;
-        for (j = 0; (j < keys.length) && eq; j++) {
-          k = keys[j];
-          eq = k in item.request;
-          if (eq) {
-            if (isObject(request[k]) && ("equals" in request[k]) && isFunction(request[k])) {
-              eq = request[k].equals(item.request[k]);
-            } else {
-              eq = request[k] === item.request[k];
-            }
-          }
-        }
-        if (eq) {
-          return item.results;
-        }
-      }
-    }
-  };
-
-  this.store = function (request, results) {
-    cache.push({request: request, keys: getKeys(request), results: results});
-  };
-}
-/**
- * Class Stack
- * @constructor
- */
-function Stack() {
-  var st = [],
-    self = this;
-
-  self.empty = function () {
-    return !st.length;
-  };
-
-  self.add = function (v) {
-    st.push(v);
-  };
-
-  self.get = function () {
-    return st.length ? st[0] : false;
-  };
-
-  self.ack = function () {
-    st.shift();
-  };
-}
-/**
- * Class Store
- * @constructor
- */
-function Store() {
-  var store = {}, // name => [id, ...]
-    objects = {}, // id => object
-    self = this;
-
-  function normalize(res) {
-    return {
-      id: res.id,
-      name: res.name,
-      object: res.obj,
-      tag: res.tag,
-      data: res.data
-    };
-  }
-
-  /**
-   * add a mixed to the store
-   **/
-  self.add = function (args, name, obj, sub) {
-    var td = args.td || {},
-      id = globalId(td.id);
-    if (!store[name]) {
-      store[name] = [];
-    }
-    if (id in objects) { // object already exists: remove it
-      self.clearById(id);
-    }
-    objects[id] = {obj: obj, sub: sub, name: name, id: id, tag: td.tag, data: td.data};
-    store[name].push(id);
-    return id;
-  };
-
-  /**
-   * return a stored object by its id
-   **/
-  self.getById = function (id, sub, full) {
-    var result = false;
-    if (id in objects) {
-      if (sub) {
-        result = objects[id].sub;
-      } else if (full) {
-        result = normalize(objects[id]);
-      } else {
-        result = objects[id].obj;
-      }
-    }
-    return result;
-  };
-
-  /**
-   * return a stored value
-   **/
-  self.get = function (name, last, tag, full) {
-    var n, id, check = ftag(tag);
-    if (!store[name] || !store[name].length) {
-      return null;
-    }
-    n = store[name].length;
-    while (n) {
-      n--;
-      id = store[name][last ? n : store[name].length - n - 1];
-      if (id && objects[id]) {
-        if (check && !check(objects[id].tag)) {
-          continue;
-        }
-        return full ? normalize(objects[id]) : objects[id].obj;
-      }
-    }
-    return null;
-  };
-
-  /**
-   * return all stored values
-   **/
-  self.all = function (name, tag, full) {
-    var result = [],
-      check = ftag(tag),
-      find = function (n) {
-        var i, id;
-        for (i = 0; i < store[n].length; i++) {
-          id = store[n][i];
-          if (id && objects[id]) {
-            if (check && !check(objects[id].tag)) {
-              continue;
-            }
-            result.push(full ? normalize(objects[id]) : objects[id].obj);
-          }
-        }
-      };
-    if (name in store) {
-      find(name);
-    } else if (isUndefined(name)) { // internal use only
-      for (name in store) {
-        find(name);
-      }
-    }
-    return result;
-  };
-
-  /**
-   * hide and remove an object
-   **/
-  function rm(obj) {
-    // Google maps element
-    if (isFunction(obj.setMap)) {
-      obj.setMap(null);
-    }
-    // jQuery
-    if (isFunction(obj.remove)) {
-      obj.remove();
-    }
-    // internal (cluster)
-    if (isFunction(obj.free)) {
-      obj.free();
-    }
-    obj = null;
-  }
-
-  /**
-   * remove one object from the store
-   **/
-  self.rm = function (name, check, pop) {
-    var idx, id;
-    if (!store[name]) {
-      return false;
-    }
-    if (check) {
-      if (pop) {
-        for (idx = store[name].length - 1; idx >= 0; idx--) {
-          id = store[name][idx];
-          if (check(objects[id].tag)) {
-            break;
-          }
-        }
-      } else {
-        for (idx = 0; idx < store[name].length; idx++) {
-          id = store[name][idx];
-          if (check(objects[id].tag)) {
-            break;
-          }
-        }
-      }
-    } else {
-      idx = pop ? store[name].length - 1 : 0;
-    }
-    if (!(idx in store[name])) {
-      return false;
-    }
-    return self.clearById(store[name][idx], idx);
-  };
-
-  /**
-   * remove object from the store by its id
-   **/
-  self.clearById = function (id, idx) {
-    if (id in objects) {
-      var i, name = objects[id].name;
-      for (i = 0; isUndefined(idx) && i < store[name].length; i++) {
-        if (id === store[name][i]) {
-          idx = i;
-        }
-      }
-      rm(objects[id].obj);
-      if (objects[id].sub) {
-        rm(objects[id].sub);
-      }
-      delete objects[id];
-      store[name].splice(idx, 1);
-      return true;
-    }
-    return false;
-  };
-
-  /**
-   * return an object from a container object in the store by its id
-   * ! for now, only cluster manage this feature
-   **/
-  self.objGetById = function (id) {
-    var result, idx;
-    if (store.clusterer) {
-      for (idx in store.clusterer) {
-        if ((result = objects[store.clusterer[idx]].obj.getById(id)) !== false) {
-          return result;
-        }
-      }
-    }
-    return false;
-  };
-
-  /**
-   * remove object from a container object in the store by its id
-   * ! for now, only cluster manage this feature
-   **/
-  self.objClearById = function (id) {
-    var idx;
-    if (store.clusterer) {
-      for (idx in store.clusterer) {
-        if (objects[store.clusterer[idx]].obj.clearById(id)) {
-          return true;
-        }
-      }
-    }
-    return null;
-  };
-
-  /**
-   * remove objects from the store
-   **/
-  self.clear = function (list, last, first, tag) {
-    var k, i, name,
-      check = ftag(tag);
-    if (!list || !list.length) {
-      list = [];
-      for (k in store) {
-        list.push(k);
-      }
-    } else {
-      list = array(list);
-    }
-    for (i = 0; i < list.length; i++) {
-      name = list[i];
-      if (last) {
-        self.rm(name, check, true);
-      } else if (first) {
-        self.rm(name, check, false);
-      } else { // all
-        while (self.rm(name, check, false)) {
-        }
-      }
-    }
-  };
-
-  /**
-   * remove object from a container object in the store by its tags
-   * ! for now, only cluster manage this feature
-   **/
-  self.objClear = function (list, last, first, tag) {
-    var idx;
-    if (store.clusterer && ($.inArray("marker", list) >= 0 || !list.length)) {
-      for (idx in store.clusterer) {
-        objects[store.clusterer[idx]].obj.clear(last, first, tag);
-      }
-    }
-  };
-}
-/**
- * Class Task
- * @param ctx
- * @param onEnd
- * @param td
- * @constructor
- */
-function Task(ctx, onEnd, td) {
-  var session = {},
-    self = this,
-    current,
-    resolve = {
-      latLng: { // function => bool (=> address = latLng)
-        map: false,
-        marker: false,
-        infowindow: false,
-        circle: false,
-        overlay: false,
-        getlatlng: false,
-        getmaxzoom: false,
-        getelevation: false,
-        streetviewpanorama: false,
-        getaddress: true
-      },
-      geoloc: {
-        getgeoloc: true
-      }
-    };
-
-  function unify(td) {
-    var result = {};
-    result[td] = {};
-    return result;
-  }
-
-  if (isString(td)) {
-    td =  unify(td);
-  }
-
-  function next() {
-    var k;
-    for (k in td) {
-      if (td.hasOwnProperty(k) && !session.hasOwnProperty(k)) {
-        return k;
-      }
-    }
-  }
-
-  self.run = function () {
-    var k, opts;
-    while (k = next()) {
-      if (isFunction(ctx[k])) {
-        current = k;
-        opts = $.extend(true, {}, defaults[k] || {}, td[k].options || {});
-        if (k in resolve.latLng) {
-          if (td[k].values) {
-            resolveAllLatLng(td[k].values, ctx, ctx[k], {td: td[k], opts: opts, session: session});
-          } else {
-            resolveLatLng(ctx, ctx[k], resolve.latLng[k], {td: td[k], opts: opts, session: session});
-          }
-        } else if (k in resolve.geoloc) {
-          geoloc(ctx, ctx[k], {td: td[k], opts: opts, session: session});
-        } else {
-          ctx[k].apply(ctx, [{td: td[k], opts: opts, session: session}]);
-        }
-        return; // wait until ack
-      } else {
-        session[k] = null;
-      }
-    }
-    onEnd.apply(ctx, [td, session]);
-  };
-
-  self.ack = function(result){
-    session[current] = result;
-    self.run.apply(self, []);
-  };
-}
-
-function directionsService(){
-  if (!services.ds) {
-    services.ds = new gm.DirectionsService();
-  }
-  return services.ds;
-}
-
-function distanceMatrixService() {
-  if (!services.dms) {
-    services.dms = new gm.DistanceMatrixService();
-  }
-  return services.dms;
-}
-
-function maxZoomService() {
-  if (!services.mzs) {
-    services.mzs = new gm.MaxZoomService();
-  }
-  return services.mzs;
-}
-
-function elevationService() {
-  if (!services.es) {
-    services.es = new gm.ElevationService();
-  }
-  return services.es;
-}
-
-  /**
-   * Usefull to get a projection
-   * => done in a function, to let dead-code analyser works without google library loaded
-   **/
-  function newEmptyOverlay(map, radius) {
-    function Overlay() {
-      var self = this;
-      self.onAdd = function () {};
-      self.onRemove = function () {};
-      self.draw = function () {};
-      return defaults.classes.OverlayView.apply(self, []);
-    }
-    Overlay.prototype = defaults.classes.OverlayView.prototype;
-    var obj = new Overlay();
-    obj.setMap(map);
-    return obj;
-  }
-
-/**
- * Class InternalClusterer
- * This class manage clusters thanks to "td" objects
- *
- * Note:
- * Individuals marker are created on the fly thanks to the td objects, they are
- * first set to null to keep the indexes synchronised with the td list
- * This is the "display" function, set by the gmap3 object, which uses theses data
- * to create markers when clusters are not required
- * To remove a marker, the objects are deleted and set not null in arrays
- *    markers[key]
- *      = null : marker exist but has not been displayed yet
- *      = false : marker has been removed
- **/
-function InternalClusterer($container, map, raw) {
-  var timer, projection,
-    ffilter, fdisplay, ferror, // callback function
-    updating = false,
-    updated = false,
-    redrawing = false,
-    ready = false,
-    enabled = true,
-    self = this,
-    events =  [],
-    store = {},   // combin of index (id1-id2-...) => object
-    ids = {},     // unique id => index
-    idxs = {},    // index => unique id
-    markers = [], // index => marker
-    tds = [],   // index => td or null if removed
-    values = [],  // index => value
-    overlay = newEmptyOverlay(map, raw.radius);
-
-  main();
-
-  function prepareMarker(index) {
-    if (!markers[index]) {
-      delete tds[index].options.map;
-      markers[index] = new defaults.classes.Marker(tds[index].options);
-      attachEvents($container, {td: tds[index]}, markers[index], tds[index].id);
-    }
-  }
-
-  /**
-   * return a marker by its id, null if not yet displayed and false if no exist or removed
-   **/
-  self.getById = function (id) {
-    if (id in ids) {
-      prepareMarker(ids[id]);
-      return  markers[ids[id]];
-    }
-    return false;
-  };
-
-  /**
-   * remove one object from the store
-   **/
-  self.rm = function (id) {
-    var index = ids[id];
-    if (markers[index]) { // can be null
-      markers[index].setMap(null);
-    }
-    delete markers[index];
-    markers[index] = false;
-
-    delete tds[index];
-    tds[index] = false;
-
-    delete values[index];
-    values[index] = false;
-
-    delete ids[id];
-    delete idxs[index];
-    updated = true;
-  };
-
-  /**
-   * remove a marker by its id
-   **/
-  self.clearById = function (id) {
-    if (id in ids){
-      self.rm(id);
-      return true;
-    }
-  };
-
-  /**
-   * remove objects from the store
-   **/
-  self.clear = function (last, first, tag) {
-    var start, stop, step, index, i,
-      list = [],
-      check = ftag(tag);
-    if (last) {
-      start = tds.length - 1;
-      stop = -1;
-      step = -1;
-    } else {
-      start = 0;
-      stop =  tds.length;
-      step = 1;
-    }
-    for (index = start; index !== stop; index += step) {
-      if (tds[index]) {
-        if (!check || check(tds[index].tag)) {
-          list.push(idxs[index]);
-          if (first || last) {
-            break;
-          }
-        }
-      }
-    }
-    for (i = 0; i < list.length; i++) {
-      self.rm(list[i]);
-    }
-  };
-
-  // add a "marker td" to the cluster
-  self.add = function (td, value) {
-    td.id = globalId(td.id);
-    self.clearById(td.id);
-    ids[td.id] = markers.length;
-    idxs[markers.length] = td.id;
-    markers.push(null); // null = marker not yet created / displayed
-    tds.push(td);
-    values.push(value);
-    updated = true;
-  };
-
-  // add a real marker to the cluster
-  self.addMarker = function (marker, td) {
-    td = td || {};
-    td.id = globalId(td.id);
-    self.clearById(td.id);
-    if (!td.options) {
-      td.options = {};
-    }
-    td.options.position = marker.getPosition();
-    attachEvents($container, {td: td}, marker, td.id);
-    ids[td.id] = markers.length;
-    idxs[markers.length] = td.id;
-    markers.push(marker);
-    tds.push(td);
-    values.push(td.data || {});
-    updated = true;
-  };
-
-  // return a "marker td" by its index
-  self.td = function (index) {
-    return tds[index];
-  };
-
-  // return a "marker value" by its index
-  self.value = function (index) {
-    return values[index];
-  };
-
-  // return a marker by its index
-  self.marker = function (index) {
-    if (index in markers) {
-      prepareMarker(index);
-      return  markers[index];
-    }
-    return false;
-  };
-
-  // return a marker by its index
-  self.markerIsSet = function (index) {
-    return Boolean(markers[index]);
-  };
-
-  // store a new marker instead if the default "false"
-  self.setMarker = function (index, marker) {
-    markers[index] = marker;
-  };
-
-  // link the visible overlay to the logical data (to hide overlays later)
-  self.store = function (cluster, obj, shadow) {
-    store[cluster.ref] = {obj: obj, shadow: shadow};
-  };
-
-  // free all objects
-  self.free = function () {
-    var i;
-    for(i = 0; i < events.length; i++) {
-      gm.event.removeListener(events[i]);
-    }
-    events = [];
-
-    $.each(store, function (key) {
-      flush(key);
-    });
-    store = {};
-
-    $.each(tds, function (i) {
-      tds[i] = null;
-    });
-    tds = [];
-
-    $.each(markers, function (i) {
-      if (markers[i]) { // false = removed
-        markers[i].setMap(null);
-        delete markers[i];
-      }
-    });
-    markers = [];
-
-    $.each(values, function (i) {
-      delete values[i];
-    });
-    values = [];
-
-    ids = {};
-    idxs = {};
-  };
-
-  // link the display function
-  self.filter = function (f) {
-    ffilter = f;
-    redraw();
-  };
-
-  // enable/disable the clustering feature
-  self.enable = function (value) {
-    if (enabled !== value) {
-      enabled = value;
-      redraw();
-    }
-  };
-
-  // link the display function
-  self.display = function (f) {
-    fdisplay = f;
-  };
-
-  // link the errorfunction
-  self.error = function (f) {
-    ferror = f;
-  };
-
-  // lock the redraw
-  self.beginUpdate = function () {
-    updating = true;
-  };
-
-  // unlock the redraw
-  self.endUpdate = function () {
-    updating = false;
-    if (updated) {
-      redraw();
-    }
-  };
-
-  // extends current bounds with internal markers
-  self.autofit = function (bounds) {
-    var i;
-    for (i = 0; i < tds.length; i++) {
-      if (tds[i]) {
-        bounds.extend(tds[i].options.position);
-      }
-    }
-  };
-
-  // bind events
-  function main() {
-    projection = overlay.getProjection();
-    if (!projection) {
-      setTimeout(function () { main.apply(self, []); }, 25);
-      return;
-    }
-    ready = true;
-    events.push(gm.event.addListener(map, "zoom_changed", delayRedraw));
-    events.push(gm.event.addListener(map, "bounds_changed", delayRedraw));
-    redraw();
-  }
-
-  // flush overlays
-  function flush(key) {
-    if (isObject(store[key])) { // is overlay
-      if (isFunction(store[key].obj.setMap)) {
-        store[key].obj.setMap(null);
-      }
-      if (isFunction(store[key].obj.remove)) {
-        store[key].obj.remove();
-      }
-      if (isFunction(store[key].shadow.remove)) {
-        store[key].obj.remove();
-      }
-      if (isFunction(store[key].shadow.setMap)) {
-        store[key].shadow.setMap(null);
-      }
-      delete store[key].obj;
-      delete store[key].shadow;
-    } else if (markers[key]) { // marker not removed
-      markers[key].setMap(null);
-      // don't remove the marker object, it may be displayed later
-    }
-    delete store[key];
-  }
-
-  /**
-   * return the distance between 2 latLng couple into meters
-   * Params :
-   *  Lat1, Lng1, Lat2, Lng2
-   *  LatLng1, Lat2, Lng2
-   *  Lat1, Lng1, LatLng2
-   *  LatLng1, LatLng2
-   **/
-  function distanceInMeter() {
-    var lat1, lat2, lng1, lng2, e, f, g, h,
-      cos = Math.cos,
-      sin = Math.sin,
-      args = arguments;
-    if (args[0] instanceof gm.LatLng) {
-      lat1 = args[0].lat();
-      lng1 = args[0].lng();
-      if (args[1] instanceof gm.LatLng) {
-        lat2 = args[1].lat();
-        lng2 = args[1].lng();
-      } else {
-        lat2 = args[1];
-        lng2 = args[2];
-      }
-    } else {
-      lat1 = args[0];
-      lng1 = args[1];
-      if (args[2] instanceof gm.LatLng) {
-        lat2 = args[2].lat();
-        lng2 = args[2].lng();
-      } else {
-        lat2 = args[2];
-        lng2 = args[3];
-      }
-    }
-    e = Math.PI * lat1 / 180;
-    f = Math.PI * lng1 / 180;
-    g = Math.PI * lat2 / 180;
-    h = Math.PI * lng2 / 180;
-    return 1000 * 6371 * Math.acos(Math.min(cos(e) * cos(g) * cos(f) * cos(h) + cos(e) * sin(f) * cos(g) * sin(h) + sin(e) * sin(g), 1));
-  }
-
-  // extend the visible bounds
-  function extendsMapBounds() {
-    var radius = distanceInMeter(map.getCenter(), map.getBounds().getNorthEast()),
-      circle = new gm.Circle({
-        center: map.getCenter(),
-        radius: 1.25 * radius // + 25%
-      });
-    return circle.getBounds();
-  }
-
-  // return an object where keys are store keys
-  function getStoreKeys() {
-    var k,
-      keys = {};
-    for (k in store) {
-      keys[k] = true;
-    }
-    return keys;
-  }
-
-  // async the delay function
-  function delayRedraw() {
-    clearTimeout(timer);
-    timer = setTimeout(redraw, 25);
-  }
-
-  // generate bounds extended by radius
-  function extendsBounds(latLng) {
-    var p = projection.fromLatLngToDivPixel(latLng),
-      ne = projection.fromDivPixelToLatLng(new gm.Point(p.x + raw.radius, p.y - raw.radius)),
-      sw = projection.fromDivPixelToLatLng(new gm.Point(p.x - raw.radius, p.y + raw.radius));
-    return new gm.LatLngBounds(sw, ne);
-  }
-
-  // run the clustering process and call the display function
-  function redraw() {
-    if (updating || redrawing || !ready) {
-      return;
-    }
-
-    var i, j, k, indexes, check = false, bounds, cluster, position, previous, lat, lng, loop,
-      keys = [],
-      used = {},
-      zoom = map.getZoom(),
-      forceDisabled = ("maxZoom" in raw) && (zoom > raw.maxZoom),
-      previousKeys = getStoreKeys();
-
-    // reset flag
-    updated = false;
-
-    if (zoom > 3) {
-      // extend the bounds of the visible map to manage clusters near the boundaries
-      bounds = extendsMapBounds();
-
-      // check contain only if boundaries are valid
-      check = bounds.getSouthWest().lng() < bounds.getNorthEast().lng();
-    }
-
-    // calculate positions of "visibles" markers (in extended bounds)
-    for (i = 0; i < tds.length; i++) {
-      if (tds[i] && (!check || bounds.contains(tds[i].options.position)) && (!ffilter || ffilter(values[i]))) {
-        keys.push(i);
-      }
-    }
-
-    // for each "visible" marker, search its neighbors to create a cluster
-    // we can't do a classical "for" loop, because, analysis can bypass a marker while focusing on cluster
-    while (1) {
-      i = 0;
-      while (used[i] && (i < keys.length)) { // look for the next marker not used
-        i++;
-      }
-      if (i === keys.length) {
-        break;
-      }
-
-      indexes = [];
-
-      if (enabled && !forceDisabled) {
-        loop = 10;
-        do {
-          previous = indexes;
-          indexes = [];
-          loop--;
-
-          if (previous.length) {
-            position = bounds.getCenter();
-          } else {
-            position = tds[keys[i]].options.position;
-          }
-          bounds = extendsBounds(position);
-
-          for (j = i; j < keys.length; j++) {
-            if (used[j]) {
-              continue;
-            }
-            if (bounds.contains(tds[keys[j]].options.position)) {
-              indexes.push(j);
-            }
-          }
-        } while ((previous.length < indexes.length) && (indexes.length > 1) && loop);
-      } else {
-        for (j = i; j < keys.length; j++) {
-          if (!used[j]) {
-            indexes.push(j);
-            break;
-          }
-        }
-      }
-
-      cluster = {indexes: [], ref: []};
-      lat = lng = 0;
-      for (k = 0; k < indexes.length; k++) {
-        used[indexes[k]] = true;
-        cluster.indexes.push(keys[indexes[k]]);
-        cluster.ref.push(keys[indexes[k]]);
-        lat += tds[keys[indexes[k]]].options.position.lat();
-        lng += tds[keys[indexes[k]]].options.position.lng();
-      }
-      lat /= indexes.length;
-      lng /= indexes.length;
-      cluster.latLng = new gm.LatLng(lat, lng);
-
-      cluster.ref = cluster.ref.join("-");
-
-      if (cluster.ref in previousKeys) { // cluster doesn't change
-        delete previousKeys[cluster.ref]; // remove this entry, these still in this array will be removed
-      } else { // cluster is new
-        if (indexes.length === 1) { // alone markers are not stored, so need to keep the key (else, will be displayed every time and marker will blink)
-          store[cluster.ref] = true;
-        }
-        fdisplay(cluster);
-      }
-    }
-
-    // flush the previous overlays which are not still used
-    $.each(previousKeys, function (key) {
-      flush(key);
-    });
-    redrawing = false;
-  }
-}
-/**
- * Class Clusterer
- * a facade with limited method for external use
- **/
-function Clusterer(id, internalClusterer) {
-  var self = this;
-  self.id = function () {
-    return id;
-  };
-  self.filter = function (f) {
-    internalClusterer.filter(f);
-  };
-  self.enable = function () {
-    internalClusterer.enable(true);
-  };
-  self.disable = function () {
-    internalClusterer.enable(false);
-  };
-  self.add = function (marker, td, lock) {
-    if (!lock) {
-      internalClusterer.beginUpdate();
-    }
-    internalClusterer.addMarker(marker, td);
-    if (!lock) {
-      internalClusterer.endUpdate();
-    }
-  };
-  self.getById = function (id) {
-    return internalClusterer.getById(id);
-  };
-  self.clearById = function (id, lock) {
-    var result;
-    if (!lock) {
-      internalClusterer.beginUpdate();
-    }
-    result = internalClusterer.clearById(id);
-    if (!lock) {
-      internalClusterer.endUpdate();
-    }
-    return result;
-  };
-  self.clear = function (last, first, tag, lock) {
-    if (!lock) {
-      internalClusterer.beginUpdate();
-    }
-    internalClusterer.clear(last, first, tag);
-    if (!lock) {
-      internalClusterer.endUpdate();
-    }
-  };
-}
-
-/**
- * Class OverlayView
- * @constructor
- */
-function OverlayView(map, opts, latLng, $div) {
-  var self = this,
-    listeners = [];
-
-  defaults.classes.OverlayView.call(self);
-  self.setMap(map);
-
-  self.onAdd = function () {
-    var panes = self.getPanes();
-    if (opts.pane in panes) {
-      $(panes[opts.pane]).append($div);
-    }
-    $.each("dblclick click mouseover mousemove mouseout mouseup mousedown".split(" "), function (i, name) {
-      listeners.push(
-        gm.event.addDomListener($div[0], name, function (e) {
-          $.Event(e).stopPropagation();
-          gm.event.trigger(self, name, [e]);
-          self.draw();
-        })
-      );
-    });
-    listeners.push(
-      gm.event.addDomListener($div[0], "contextmenu", function (e) {
-        $.Event(e).stopPropagation();
-        gm.event.trigger(self, "rightclick", [e]);
-        self.draw();
-      })
-    );
-  };
-
-  self.getPosition = function () {
-    return latLng;
-  };
-
-  self.setPosition = function (newLatLng) {
-    latLng = newLatLng;
-    self.draw();
-  };
-
-  self.draw = function () {
-    var ps = self.getProjection().fromLatLngToDivPixel(latLng);
-    $div
-      .css("left", (ps.x + opts.offset.x) + "px")
-      .css("top", (ps.y + opts.offset.y) + "px");
-  };
-
-  self.onRemove = function () {
-    var i;
-    for (i = 0; i < listeners.length; i++) {
-      gm.event.removeListener(listeners[i]);
-    }
-    $div.remove();
-  };
-
-  self.hide = function () {
-    $div.hide();
-  };
-
-  self.show = function () {
-    $div.show();
-  };
-
-  self.toggle = function () {
-    if ($div) {
-      if ($div.is(":visible")) {
-        self.show();
-      } else {
-        self.hide();
-      }
-    }
-  };
-
-  self.toggleDOM = function () {
-    self.setMap(self.getMap() ? null : map);
-  };
-
-  self.getDOMElement = function () {
-    return $div[0];
-  };
-}
-
-function Gmap3($this) {
-  var self = this,
-    stack = new Stack(),
-    store = new Store(),
-    map = null,
-    task;
-
-  /**
-   * if not running, start next action in stack
-   **/
-  function run() {
-    if (!task && (task = stack.get())) {
-      task.run();
-    }
-  }
-
-  /**
-   * called when action in finished, to acknoledge the current in stack and start next one
-   **/
-  function end() {
-    task = null;
-    stack.ack();
-    run.call(self); // restart to high level scope
-  }
-
-//-----------------------------------------------------------------------//
-// Tools
-//-----------------------------------------------------------------------//
-
-  /**
-   * execute callback functions
-   **/
-  function callback(args) {
-    var params,
-      cb = args.td.callback;
-    if (cb) {
-      params = Array.prototype.slice.call(arguments, 1);
-      if (isFunction(cb)) {
-        cb.apply($this, params);
-      } else if (isArray(cb)) {
-        if (isFunction(cb[1])) {
-          cb[1].apply(cb[0], params);
-        }
-      }
-    }
-  }
-
-  /**
-   * execute ending functions
-   **/
-  function manageEnd(args, obj, id) {
-    if (id) {
-      attachEvents($this, args, obj, id);
-    }
-    callback(args, obj);
-    task.ack(obj);
-  }
-
-  /**
-   * initialize the map if not yet initialized
-   **/
-  function newMap(latLng, args) {
-    args = args || {};
-    var opts = args.td && args.td.options ? args.td.options : 0;
-    if (map) {
-      if (opts) {
-        if (opts.center) {
-          opts.center = toLatLng(opts.center);
-        }
-        map.setOptions(opts);
-      }
-    } else {
-      opts = args.opts || $.extend(true, {}, defaults.map, opts || {});
-      opts.center = latLng || toLatLng(opts.center);
-      map = new defaults.classes.Map($this.get(0), opts);
-    }
-  }
-
-  /**
-   * store actions to execute in a stack manager
-   **/
-  self._plan = function (list) {
-    var k;
-    for (k = 0; k < list.length; k++) {
-      stack.add(new Task(self, end, list[k]));
-    }
-    run();
-  };
-
-  /**
-   * Initialize gm.Map object
-   **/
-  self.map = function (args) {
-    newMap(args.latLng, args);
-    attachEvents($this, args, map);
-    manageEnd(args, map);
-  };
-
-  /**
-   * destroy an existing instance
-   **/
-  self.destroy = function (args) {
-    store.clear();
-    $this.empty();
-    if (map) {
-      map = null;
-    }
-    manageEnd(args, true);
-  };
-
-  /**
-   * add an overlay
-   **/
-  self.overlay = function (args, internal) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      args.td.values = [{latLng: args.latLng, options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    if (!OverlayView.__initialised) {
-      OverlayView.prototype = new defaults.classes.OverlayView();
-      OverlayView.__initialised = true;
-    }
-    $.each(args.td.values, function (i, value) {
-      var id, obj, td = tuple(args, value),
-        $div = $(document.createElement("div")).css({
-          border: "none",
-          borderWidth: 0,
-          position: "absolute"
-        });
-      $div.append(td.options.content);
-      obj = new OverlayView(map, td.options, toLatLng(td) || toLatLng(value), $div);
-      objs.push(obj);
-      $div = null; // memory leak
-      if (!internal) {
-        id = store.add(args, "overlay", obj);
-        attachEvents($this, {td: td}, obj, id);
-      }
-    });
-    if (internal) {
-      return objs[0];
-    }
-    manageEnd(args, multiple ? objs : objs[0]);
-  };
-
-  /**
-   * Create an InternalClusterer object
-   **/
-  function createClusterer(raw) {
-    var internalClusterer = new InternalClusterer($this, map, raw),
-      td = {},
-      styles = {},
-      thresholds = [],
-      isInt = /^[0-9]+$/,
-      calculator,
-      k;
-
-    for (k in raw) {
-      if (isInt.test(k)) {
-        thresholds.push(1 * k); // cast to int
-        styles[k] = raw[k];
-        styles[k].width = styles[k].width || 0;
-        styles[k].height = styles[k].height || 0;
-      } else {
-        td[k] = raw[k];
-      }
-    }
-    thresholds.sort(function (a, b) { return a > b; });
-
-    // external calculator
-    if (td.calculator) {
-      calculator = function (indexes) {
-        var data = [];
-        $.each(indexes, function (i, index) {
-          data.push(internalClusterer.value(index));
-        });
-        return td.calculator.apply($this, [data]);
-      };
-    } else {
-      calculator = function (indexes) {
-        return indexes.length;
-      };
-    }
-
-    // set error function
-    internalClusterer.error(function () {
-      error.apply(self, arguments);
-    });
-
-    // set display function
-    internalClusterer.display(function (cluster) {
-      var i, style, atd, obj, offset, shadow,
-        cnt = calculator(cluster.indexes);
-
-      // look for the style to use
-      if (raw.force || cnt > 1) {
-        for (i = 0; i < thresholds.length; i++) {
-          if (thresholds[i] <= cnt) {
-            style = styles[thresholds[i]];
-          }
-        }
-      }
-
-      if (style) {
-        offset = style.offset || [-style.width/2, -style.height/2];
-        // create a custom overlay command
-        // nb: 2 extends are faster self a deeper extend
-        atd = $.extend({}, td);
-        atd.options = $.extend({
-            pane: "overlayLayer",
-            content: style.content ? style.content.replace("CLUSTER_COUNT", cnt) : "",
-            offset: {
-              x: ("x" in offset ? offset.x : offset[0]) || 0,
-              y: ("y" in offset ? offset.y : offset[1]) || 0
-            }
-          },
-          td.options || {});
-
-        obj = self.overlay({td: atd, opts: atd.options, latLng: toLatLng(cluster)}, true);
-
-        atd.options.pane = "floatShadow";
-        atd.options.content = $(document.createElement("div")).width(style.width + "px").height(style.height + "px").css({cursor: "pointer"});
-        shadow = self.overlay({td: atd, opts: atd.options, latLng: toLatLng(cluster)}, true);
-
-        // store data to the clusterer
-        td.data = {
-          latLng: toLatLng(cluster),
-          markers:[]
-        };
-        $.each(cluster.indexes, function(i, index){
-          td.data.markers.push(internalClusterer.value(index));
-          if (internalClusterer.markerIsSet(index)){
-            internalClusterer.marker(index).setMap(null);
-          }
-        });
-        attachEvents($this, {td: td}, shadow, undef, {main: obj, shadow: shadow});
-        internalClusterer.store(cluster, obj, shadow);
-      } else {
-        $.each(cluster.indexes, function (i, index) {
-          internalClusterer.marker(index).setMap(map);
-        });
-      }
-    });
-
-    return internalClusterer;
-  }
-
-  /**
-   *  add a marker
-   **/
-  self.marker = function (args) {
-    var objs,
-      clusterer, internalClusterer,
-      multiple = "values" in args.td,
-      init = !map;
-    if (!multiple) {
-      args.opts.position = args.latLng || toLatLng(args.opts.position);
-      args.td.values = [{options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    if (init) {
-      newMap();
-    }
-    if (args.td.cluster && !map.getBounds()) { // map not initialised => bounds not available : wait for map if clustering feature is required
-      gm.event.addListenerOnce(map, "bounds_changed", function () { self.marker.apply(self, [args]); });
-      return;
-    }
-    if (args.td.cluster) {
-      if (args.td.cluster instanceof Clusterer) {
-        clusterer = args.td.cluster;
-        internalClusterer = store.getById(clusterer.id(), true);
-      } else {
-        internalClusterer = createClusterer(args.td.cluster);
-        clusterer = new Clusterer(globalId(args.td.id, true), internalClusterer);
-        store.add(args, "clusterer", clusterer, internalClusterer);
-      }
-      internalClusterer.beginUpdate();
-
-      $.each(args.td.values, function (i, value) {
-        var td = tuple(args, value);
-        td.options.position = td.options.position ? toLatLng(td.options.position) : toLatLng(value);
-        if (td.options.position) {
-          td.options.map = map;
-          if (init) {
-            map.setCenter(td.options.position);
-            init = false;
-          }
-          internalClusterer.add(td, value);
-        }
-      });
-
-      internalClusterer.endUpdate();
-      manageEnd(args, clusterer);
-
-    } else {
-      objs = [];
-      $.each(args.td.values, function (i, value) {
-        var id, obj,
-          td = tuple(args, value);
-        td.options.position = td.options.position ? toLatLng(td.options.position) : toLatLng(value);
-        if (td.options.position) {
-          td.options.map = map;
-          if (init) {
-            map.setCenter(td.options.position);
-            init = false;
-          }
-          obj = new defaults.classes.Marker(td.options);
-          objs.push(obj);
-          id = store.add({td: td}, "marker", obj);
-          attachEvents($this, {td: td}, obj, id);
-        }
-      });
-      manageEnd(args, multiple ? objs : objs[0]);
-    }
-  };
-
-  /**
-   * return a route
-   **/
-  self.getroute = function (args) {
-    args.opts.origin = toLatLng(args.opts.origin, true);
-    args.opts.destination = toLatLng(args.opts.destination, true);
-    directionsService().route(
-      args.opts,
-      function (results, status) {
-        callback(args, status === gm.DirectionsStatus.OK ? results : false, status);
-        task.ack();
-      }
-    );
-  };
-
-  /**
-   * return the distance between an origin and a destination
-   *
-   **/
-  self.getdistance = function (args) {
-    var i;
-    args.opts.origins = array(args.opts.origins);
-    for (i = 0; i < args.opts.origins.length; i++) {
-      args.opts.origins[i] = toLatLng(args.opts.origins[i], true);
-    }
-    args.opts.destinations = array(args.opts.destinations);
-    for (i = 0; i < args.opts.destinations.length; i++) {
-      args.opts.destinations[i] = toLatLng(args.opts.destinations[i], true);
-    }
-    distanceMatrixService().getDistanceMatrix(
-      args.opts,
-      function (results, status) {
-        callback(args, status === gm.DistanceMatrixStatus.OK ? results : false, status);
-        task.ack();
-      }
-    );
-  };
-
-  /**
-   * add an infowindow
-   **/
-  self.infowindow = function (args) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      if (args.latLng) {
-        args.opts.position = args.latLng;
-      }
-      args.td.values = [{options: args.opts}];
-    }
-    $.each(args.td.values, function (i, value) {
-      var id, obj,
-        td = tuple(args, value);
-      td.options.position = td.options.position ? toLatLng(td.options.position) : toLatLng(value.latLng);
-      if (!map) {
-        newMap(td.options.position);
-      }
-      obj = new defaults.classes.InfoWindow(td.options);
-      if (obj && (isUndefined(td.open) || td.open)) {
-        if (multiple) {
-          obj.open(map, td.anchor || undef);
-        } else {
-          obj.open(map, td.anchor || (args.latLng ? undef : (args.session.marker ? args.session.marker : undef)));
-        }
-      }
-      objs.push(obj);
-      id = store.add({td: td}, "infowindow", obj);
-      attachEvents($this, {td: td}, obj, id);
-    });
-    manageEnd(args, multiple ? objs : objs[0]);
-  };
-
-  /**
-   * add a circle
-   **/
-  self.circle = function (args) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      args.opts.center = args.latLng || toLatLng(args.opts.center);
-      args.td.values = [{options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    $.each(args.td.values, function (i, value) {
-      var id, obj,
-        td = tuple(args, value);
-      td.options.center = td.options.center ? toLatLng(td.options.center) : toLatLng(value);
-      if (!map) {
-        newMap(td.options.center);
-      }
-      td.options.map = map;
-      obj = new defaults.classes.Circle(td.options);
-      objs.push(obj);
-      id = store.add({td: td}, "circle", obj);
-      attachEvents($this, {td: td}, obj, id);
-    });
-    manageEnd(args, multiple ? objs : objs[0]);
-  };
-
-  /**
-   * returns address structure from latlng
-   **/
-  self.getaddress = function (args) {
-    callback(args, args.results, args.status);
-    task.ack();
-  };
-
-  /**
-   * returns latlng from an address
-   **/
-  self.getlatlng = function (args) {
-    callback(args, args.results, args.status);
-    task.ack();
-  };
-
-  /**
-   * return the max zoom of a location
-   **/
-  self.getmaxzoom = function (args) {
-    maxZoomService().getMaxZoomAtLatLng(
-      args.latLng,
-      function (result) {
-        callback(args, result.status === gm.MaxZoomStatus.OK ? result.zoom : false, status);
-        task.ack();
-      }
-    );
-  };
-
-  /**
-   * return the elevation of a location
-   **/
-  self.getelevation = function (args) {
-    var i,
-      locations = [],
-      f = function (results, status) {
-        callback(args, status === gm.ElevationStatus.OK ? results : false, status);
-        task.ack();
-      };
-
-    if (args.latLng) {
-      locations.push(args.latLng);
-    } else {
-      locations = array(args.td.locations || []);
-      for (i = 0; i < locations.length; i++) {
-        locations[i] = toLatLng(locations[i]);
-      }
-    }
-    if (locations.length) {
-      elevationService().getElevationForLocations({locations: locations}, f);
-    } else {
-      if (args.td.path && args.td.path.length) {
-        for (i = 0; i < args.td.path.length; i++) {
-          locations.push(toLatLng(args.td.path[i]));
-        }
-      }
-      if (locations.length) {
-        elevationService().getElevationAlongPath({path: locations, samples:args.td.samples}, f);
-      } else {
-        task.ack();
-      }
-    }
-  };
-
-  /**
-   * define defaults values
-   **/
-  self.defaults = function (args) {
-    $.each(args.td, function(name, value) {
-      if (isObject(defaults[name])) {
-        defaults[name] = $.extend({}, defaults[name], value);
-      } else {
-        defaults[name] = value;
-      }
-    });
-    task.ack(true);
-  };
-
-  /**
-   * add a rectangle
-   **/
-  self.rectangle = function (args) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      args.td.values = [{options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    $.each(args.td.values, function (i, value) {
-      var id, obj,
-        td = tuple(args, value);
-      td.options.bounds = td.options.bounds ? toLatLngBounds(td.options.bounds) : toLatLngBounds(value);
-      if (!map) {
-        newMap(td.options.bounds.getCenter());
-      }
-      td.options.map = map;
-
-      obj = new defaults.classes.Rectangle(td.options);
-      objs.push(obj);
-      id = store.add({td: td}, "rectangle", obj);
-      attachEvents($this, {td: td}, obj, id);
-    });
-    manageEnd(args, multiple ? objs : objs[0]);
-  };
-
-  /**
-   * add a polygone / polyline
-   **/
-  function poly(args, poly, path) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      args.td.values = [{options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    newMap();
-    $.each(args.td.values, function (_, value) {
-      var id, i, j, obj,
-        td = tuple(args, value);
-      if (td.options[path]) {
-        if (td.options[path][0][0] && isArray(td.options[path][0][0])) {
-          for (i = 0; i < td.options[path].length; i++) {
-            for (j = 0; j < td.options[path][i].length; j++) {
-              td.options[path][i][j] = toLatLng(td.options[path][i][j]);
-            }
-          }
-        } else {
-          for (i = 0; i < td.options[path].length; i++) {
-            td.options[path][i] = toLatLng(td.options[path][i]);
-          }
-        }
-      }
-      td.options.map = map;
-      obj = new gm[poly](td.options);
-      objs.push(obj);
-      id = store.add({td: td}, poly.toLowerCase(), obj);
-      attachEvents($this, {td: td}, obj, id);
-    });
-    manageEnd(args, multiple ? objs : objs[0]);
-  }
-
-  self.polyline = function (args) {
-    poly(args, "Polyline", "path");
-  };
-
-  self.polygon = function (args) {
-    poly(args, "Polygon", "paths");
-  };
-
-  /**
-   * add a traffic layer
-   **/
-  self.trafficlayer = function (args) {
-    newMap();
-    var obj = store.get("trafficlayer");
-    if (!obj) {
-      obj = new defaults.classes.TrafficLayer();
-      obj.setMap(map);
-      store.add(args, "trafficlayer", obj);
-    }
-    manageEnd(args, obj);
-  };
-
-  /**
-   * add a bicycling layer
-   **/
-  self.bicyclinglayer = function (args) {
-    newMap();
-    var obj = store.get("bicyclinglayer");
-    if (!obj) {
-      obj = new defaults.classes.BicyclingLayer();
-      obj.setMap(map);
-      store.add(args, "bicyclinglayer", obj);
-    }
-    manageEnd(args, obj);
-  };
-
-  /**
-   * add a ground overlay
-   **/
-  self.groundoverlay = function (args) {
-    args.opts.bounds = toLatLngBounds(args.opts.bounds);
-    if (args.opts.bounds){
-      newMap(args.opts.bounds.getCenter());
-    }
-    var id,
-      obj = new defaults.classes.GroundOverlay(args.opts.url, args.opts.bounds, args.opts.opts);
-    obj.setMap(map);
-    id = store.add(args, "groundoverlay", obj);
-    manageEnd(args, obj, id);
-  };
-
-  /**
-   * set a streetview
-   **/
-  self.streetviewpanorama = function (args) {
-    if (!args.opts.opts) {
-      args.opts.opts = {};
-    }
-    if (args.latLng) {
-      args.opts.opts.position = args.latLng;
-    } else if (args.opts.opts.position) {
-      args.opts.opts.position = toLatLng(args.opts.opts.position);
-    }
-    if (args.td.divId) {
-      args.opts.container = document.getElementById(args.td.divId);
-    } else if (args.opts.container) {
-      args.opts.container = $(args.opts.container).get(0);
-    }
-    var id, obj = new defaults.classes.StreetViewPanorama(args.opts.container, args.opts.opts);
-    if (obj) {
-      map.setStreetView(obj);
-    }
-    id = store.add(args, "streetviewpanorama", obj);
-    manageEnd(args, obj, id);
-  };
-
-  self.kmllayer = function (args) {
-    var objs = [],
-      multiple = "values" in args.td;
-    if (!multiple) {
-      args.td.values = [{options: args.opts}];
-    }
-    if (!args.td.values.length) {
-      manageEnd(args, false);
-      return;
-    }
-    $.each(args.td.values, function (i, value) {
-      var id, obj, options,
-        td = tuple(args, value);
-      if (!map) {
-        newMap();
-      }
-      options = td.options;
-      // compatibility 5.0-
-      if (td.options.opts) {
-        options = td.options.opts;
-        if (td.options.url) {
-          options.url = td.options.url;
-        }
-      }
-      // -- end --
-      options.map = map;
-      if (googleVersionMin("3.10")) {
-        obj = new defaults.classes.KmlLayer(options);
-      } else {
-        obj = new defaults.classes.KmlLayer(options.url, options);
-      }
-      objs.push(obj);
-      id = store.add({td: td}, "kmllayer", obj);
-      attachEvents($this, {td: td}, obj, id);
-    });
-    manageEnd(args, multiple ? objs : objs[0]);
-  };
-
-  /**
-   * add a fix panel
-   **/
-  self.panel = function (args) {
-    newMap();
-    var id, $content,
-      x = 0,
-      y = 0,
-      $div = $(document.createElement("div"));
-
-    $div.css({
-      position: "absolute",
-      zIndex: 1000,
-      visibility: "hidden"
-    });
-
-    if (args.opts.content) {
-      $content = $(args.opts.content);
-      $div.append($content);
-      $this.first().prepend($div);
-
-      if (!isUndefined(args.opts.left)) {
-        x = args.opts.left;
-      } else if (!isUndefined(args.opts.right)) {
-        x = $this.width() - $content.width() - args.opts.right;
-      } else if (args.opts.center) {
-        x = ($this.width() - $content.width()) / 2;
-      }
-
-      if (!isUndefined(args.opts.top)) {
-        y = args.opts.top;
-      } else if (!isUndefined(args.opts.bottom)) {
-        y = $this.height() - $content.height() - args.opts.bottom;
-      } else if (args.opts.middle) {
-        y = ($this.height() - $content.height()) / 2
-      }
-
-      $div.css({
-        top: y,
-        left: x,
-        visibility: "visible"
-      });
-    }
-
-    id = store.add(args, "panel", $div);
-    manageEnd(args, $div, id);
-    $div = null; // memory leak
-  };
-
-  /**
-   * add a direction renderer
-   **/
-  self.directionsrenderer = function (args) {
-    args.opts.map = map;
-    var id,
-      obj = new gm.DirectionsRenderer(args.opts);
-    if (args.td.divId) {
-      obj.setPanel(document.getElementById(args.td.divId));
-    } else if (args.td.container) {
-      obj.setPanel($(args.td.container).get(0));
-    }
-    id = store.add(args, "directionsrenderer", obj);
-    manageEnd(args, obj, id);
-  };
-
-  /**
-   * returns latLng of the user
-   **/
-  self.getgeoloc = function (args) {
-    manageEnd(args, args.latLng);
-  };
-
-  /**
-   * add a style
-   **/
-  self.styledmaptype = function (args) {
-    newMap();
-    var obj = new defaults.classes.StyledMapType(args.td.styles, args.opts);
-    map.mapTypes.set(args.td.id, obj);
-    manageEnd(args, obj);
-  };
-
-  /**
-   * add an imageMapType
-   **/
-  self.imagemaptype = function (args) {
-    newMap();
-    var obj = new defaults.classes.ImageMapType(args.opts);
-    map.mapTypes.set(args.td.id, obj);
-    manageEnd(args, obj);
-  };
-
-  /**
-   * autofit a map using its overlays (markers, rectangles ...)
-   **/
-  self.autofit = function (args) {
-    var bounds = new gm.LatLngBounds();
-    $.each(store.all(), function (i, obj) {
-      if (obj.getPosition) {
-        bounds.extend(obj.getPosition());
-      } else if (obj.getBounds) {
-        bounds.extend(obj.getBounds().getNorthEast());
-        bounds.extend(obj.getBounds().getSouthWest());
-      } else if (obj.getPaths) {
-        obj.getPaths().forEach(function (path) {
-          path.forEach(function (latLng) {
-            bounds.extend(latLng);
-          });
-        });
-      } else if (obj.getPath) {
-        obj.getPath().forEach(function (latLng) {
-          bounds.extend(latLng);
-        });
-      } else if (obj.getCenter) {
-        bounds.extend(obj.getCenter());
-      } else if (typeof Clusterer === "function" && obj instanceof Clusterer) {
-        obj = store.getById(obj.id(), true);
-        if (obj) {
-          obj.autofit(bounds);
-        }
-      }
-    });
-
-    if (!bounds.isEmpty() && (!map.getBounds() || !map.getBounds().equals(bounds))) {
-      if ("maxZoom" in args.td) {
-        // fitBouds Callback event => detect zoom level and check maxZoom
-        gm.event.addListenerOnce(
-          map,
-          "bounds_changed",
-          function () {
-            if (this.getZoom() > args.td.maxZoom) {
-              this.setZoom(args.td.maxZoom);
-            }
-          }
-        );
-      }
-      map.fitBounds(bounds);
-    }
-    manageEnd(args, true);
-  };
-
-  /**
-   * remove objects from a map
-   **/
-  self.clear = function (args) {
-    if (isString(args.td)) {
-      if (store.clearById(args.td) || store.objClearById(args.td)) {
-        manageEnd(args, true);
-        return;
-      }
-      args.td = {name: args.td};
-    }
-    if (args.td.id) {
-      $.each(array(args.td.id), function (i, id) {
-        store.clearById(id) || store.objClearById(id);
-      });
-    } else {
-      store.clear(array(args.td.name), args.td.last, args.td.first, args.td.tag);
-      store.objClear(array(args.td.name), args.td.last, args.td.first, args.td.tag);
-    }
-    manageEnd(args, true);
-  };
-
-  /**
-   * return objects previously created
-   **/
-  self.get = function (args, direct, full) {
-    var name, res,
-      td = direct ? args : args.td;
-    if (!direct) {
-      full = td.full;
-    }
-    if (isString(td)) {
-      res = store.getById(td, false, full) || store.objGetById(td);
-      if (res === false) {
-        name = td;
-        td = {};
-      }
-    } else {
-      name = td.name;
-    }
-    if (name === "map") {
-      res = map;
-    }
-    if (!res) {
-      res = [];
-      if (td.id) {
-        $.each(array(td.id), function (i, id) {
-          res.push(store.getById(id, false, full) || store.objGetById(id));
-        });
-        if (!isArray(td.id)) {
-          res = res[0];
-        }
-      } else {
-        $.each(name ? array(name) : [undef], function (i, aName) {
-          var result;
-          if (td.first) {
-            result = store.get(aName, false, td.tag, full);
-            if (result) {
-              res.push(result);
-            }
-          } else if (td.all) {
-            $.each(store.all(aName, td.tag, full), function (i, result) {
-              res.push(result);
-            });
-          } else {
-            result = store.get(aName, true, td.tag, full);
-            if (result) {
-              res.push(result);
-            }
-          }
-        });
-        if (!td.all && !isArray(name)) {
-          res = res[0];
-        }
-      }
-    }
-    res = isArray(res) || !td.all ? res : [res];
-    if (direct) {
-      return res;
-    } else {
-      manageEnd(args, res);
-    }
-  };
-
-  /**
-   * run a function on each items selected
-   **/
-  self.exec = function (args) {
-    $.each(array(args.td.func), function (i, func) {
-      $.each(self.get(args.td, true, args.td.hasOwnProperty("full") ? args.td.full : true), function (j, res) {
-        func.call($this, res);
-      });
-    });
-    manageEnd(args, true);
-  };
-
-  /**
-   * trigger events on the map
-   **/
-  self.trigger = function (args) {
-    if (isString(args.td)) {
-      gm.event.trigger(map, args.td);
-    } else {
-      var options = [map, args.td.eventName];
-      if (args.td.var_args) {
-        $.each(args.td.var_args, function (i, v) {
-          options.push(v);
-        });
-      }
-      gm.event.trigger.apply(gm.event, options);
-    }
-    callback(args);
-    task.ack();
-  };
-}
-
-$.fn.gmap3 = function () {
-  var i,
-    list = [],
-    empty = true,
-    results = [];
-
-  // init library
-  initDefaults();
-
-  // store all arguments in a td list
-  for (i = 0; i < arguments.length; i++) {
-    if (arguments[i]) {
-      list.push(arguments[i]);
-    }
-  }
-
-  // resolve empty call - run init
-  if (!list.length) {
-    list.push("map");
-  }
-
-  // loop on each jQuery object
-  $.each(this, function () {
-    var $this = $(this),
-      gmap3 = $this.data("gmap3");
-    empty = false;
-    if (!gmap3) {
-      gmap3 = new Gmap3($this);
-      $this.data("gmap3", gmap3);
-    }
-    if (list.length === 1 && (list[0] === "get" || isDirectGet(list[0]))) {
-      if (list[0] === "get") {
-        results.push(gmap3.get("map", true));
-      } else {
-        results.push(gmap3.get(list[0].get, true, list[0].get.full));
-      }
-    } else {
-      gmap3._plan(list);
-    }
-  });
-
-  // return for direct call only
-  if (results.length) {
-    if (results.length === 1) { // 1 css selector
-      return results[0];
-    }
-    return results;
-  }
-
-  return this;
-};
-})(jQuery);
-
-(function($) {
-    'use strict';
-
-    /* Hide menu after click
-    ----------------------------------------------*/
-    $('.navbar-nav li a').click(function(event) {
-        $('.in').collapse('hide');
-    });
-
-    /* Smooth scroll to section
-    ----------------------------------------------*/
-    $('a.scroll[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top-70
-                }, 500);
-                return false;
-            }
-        }
-    });
-
-    /* Team slideshow
-    ----------------------------------------------*/
-    $("#team-carousel").owlCarousel({
-
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
-
-        items : 4,
-        itemsDesktopSmall : [979,3],
-        stopOnHover: true
-
-    });
-  /* Tooltip
-    ----------------------------------------------*/
-    $('[data-toggle="tooltip"]').tooltip();
-=======
 (function($) {
     'use strict';
 
@@ -9108,10 +5974,7 @@ $.fn.gmap3 = function () {
   /* Tooltip
     ----------------------------------------------*/
     $('[data-toggle="tooltip"]').tooltip();
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
 
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
     /* Lightbox
     ----------------------------------------------*/
     $('.image-link').magnificPopup({
@@ -9120,55 +5983,5 @@ $.fn.gmap3 = function () {
 
     /* Google map
     ----------------------------------------------*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $(".map").each(function(){
-
-        var data_zoom = 17;
-
-        if ($(this).attr("data-zoom") !== undefined) {
-            data_zoom = parseInt($(this).attr("data-zoom"),10);
-        }
-
-        $(this).gmap3({
-            marker: {
-                values: [{
-                    address: $(this).attr("data-address"),
-                    data: $(this).attr("data-address-details")
-                }],
-                options:{
-                    draggable: false
-                },
-                events:{
-                    click: function(marker, event, context){
-                        var map = $(this).gmap3("get"),
-                        infowindow = $(this).gmap3({get:{name:"infowindow"}});
-                        if (infowindow){
-                            infowindow.open(map, marker);
-                            infowindow.setContent(context.data);
-                        } else {
-                            $(this).gmap3({
-                                infowindow:{
-                                    anchor:marker,
-                                    options:{content: context.data}
-                                }
-                            });
-                        }
-                    }
-                }
-            },
-            map: {
-                options: {
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    zoom: data_zoom,
-                    scrollwheel: false
-                }
-            }
-        });
-    });
-=======
->>>>>>> 6d5ec1345479a2f0f3117cf9ebd20e3a23548b54
-=======
->>>>>>> 43d89925eea988c55d4f89b83b8190bb4945e463
 
 })(jQuery);
