@@ -18,7 +18,7 @@ api_token: "c84e8962aca6a783d445b8a81ebf3876" # Enter API token here
 contact:
     phone: 932 50 540
     emergency: 931 53 234
-    email: info@extremeairs.in
+    email: info@extremeair.in
     address: "C-63, Shiv Industrial Park, Nr. Sarjan Ind., Ambica Tube Compound, Vatva, Ahmedabad – 382440, Gujarat, India."
 
 # Map
@@ -36,7 +36,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 Extreme-Airs
+copyright: © 2015 Extreme-Air
 
 # Build settings
 markdown: kramdown
