@@ -15,8 +15,10 @@ api_token: "c84e8962aca6a783d445b8a81ebf3876" # Enter API token here
 # Contact info
 contact:
     name: Nisarg Jani
-    phone: 97273 79760
+    phoneFirst: 97273 79760
+    phoneSecond: 97253 10611
     email: info@extremeair.in
+    
     address: "C-63, Shiv Industrial Park, Nr. Sarjan Ind., Ambica Tube Compound, Vatva, Ahmedabad – 382440, Gujarat, India."
 
 # Map
