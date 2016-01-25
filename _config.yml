@@ -1,6 +1,5 @@
 # Site settings
-title: Extreme Air systems pvt. Ltd. 
-description: "We provide the best quality pumps."
+title: Extreme Air Systems Pvt. Ltd. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: img/logo.jpg
@@ -8,16 +7,15 @@ logo_url: img/logo.jpg
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Extreme Air pvt. Ltd.
-    hero_description: We provide the best quality pumps.
-
+    hero_title: Extreme Air Systems Pvt. Ltd.
+    
 # Contact form
 api_token: "c84e8962aca6a783d445b8a81ebf3876" # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
+    name: Nisarg Jani
+    phone: 97273 79760
     email: info@extremeair.in
     address: "C-63, Shiv Industrial Park, Nr. Sarjan Ind., Ambica Tube Compound, Vatva, Ahmedabad – 382440, Gujarat, India."
 
@@ -32,11 +30,10 @@ facebook: http://facebook.com
 twitter: http://twitter.com
 instagram: http://instagram.com
 youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 Extreme-Air
+copyright: © 2015 Extreme Air Systems Pvt. Ltd.
 
 # Build settings
 markdown: kramdown
