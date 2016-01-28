@@ -21,19 +21,13 @@
             }
         }
     });
-    /* Team slideshow
-    ----------------------------------------------*/
-    $("#team-carousel").owlCarousel({
+     $("#team-carousel").owlCarousel({
         autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
         lazyLoad : true
     });
-  /* Tooltip
-    ----------------------------------------------*/
+ 
     $('[data-toggle="tooltip"]').tooltip();
-
-    /* Lightbox
-    ----------------------------------------------*/
     $('.image-link').magnificPopup({
         type:'image'
     });
