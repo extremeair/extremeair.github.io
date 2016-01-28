@@ -6,7 +6,6 @@
     $('.navbar-nav li a').click(function(event) {
         $('.in').collapse('hide');
     });
-
     /* Smooth scroll to section
     ----------------------------------------------*/
     $('a.scroll[href*=#]:not([href=#])').click(function() {
@@ -22,14 +21,12 @@
             }
         }
     });
-
     /* Team slideshow
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
         autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
         lazyLoad : true
-
     });
   /* Tooltip
     ----------------------------------------------*/

@@ -20,11 +20,9 @@ if (typeof Object.create !== "function") {
     };
 }
 (function ($, window, document) {
-
     var Carousel = {
         init : function (options, el) {
             var base = this;
-
             base.$elem = $(el);
             base.options = $.extend({}, $.fn.owlCarousel.options, base.$elem.data(), options);
 
