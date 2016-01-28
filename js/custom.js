@@ -26,10 +26,8 @@
     /* Team slideshow
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
+        autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
-        itemsDesktopSmall : [979,3],
-        stopOnHover: true
 
     });
   /* Tooltip
