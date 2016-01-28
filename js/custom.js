@@ -28,6 +28,7 @@
     $("#team-carousel").owlCarousel({
         autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
+        lazyLoad : true
 
     });
   /* Tooltip
