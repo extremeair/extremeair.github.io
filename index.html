@@ -127,7 +127,6 @@ function getText(name)
 {% for pump in site.data.products %}
 	<!-- Modal -->
 <div class="modal fade" id="myModal-{{pump.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-re
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -137,8 +136,18 @@ re
         <h4 class="modal-title">{{pump.name}}</h4>
       </div>
       <div class="modal-body">
-      	<p>{% include car_inner.html %}</p>
+      	<p>{% include card_inner.html %}</p>
         <p>{{pump.content}}</p>
+        {% if pump.Applications %}
+        <ul>
+        {% for application in pump.Applications %}
+        
+        	<li>application</li>
+        
+        {% endfor %}
+        </ul>
+        {% endif %}
+        
       </div>
       <div class="modal-footer">
         <button type="button" id="mybutton-{{pump.id}}" class="btn btn-default" data-dismiss="modal" name="{{pump.name}}" onclick="getText(this.name)" >Enquire</button>
