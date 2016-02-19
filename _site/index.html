@@ -95,6 +95,10 @@
         <link rel="stylesheet" type="text/css" href="css/img.css">
 <script type="text/javascript">
 	$(document).ready(function() {
+	$('#team-carousel').owlCarousel{
+		$('#team-carousel').stop();
+	}
+
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
