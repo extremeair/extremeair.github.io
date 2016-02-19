@@ -2385,11 +2385,9 @@ if (typeof Object.create !== "function") {
     };
 }
 (function ($, window, document) {
-
     var Carousel = {
         init : function (options, el) {
             var base = this;
-
             base.$elem = $(el);
             base.options = $.extend({}, $.fn.owlCarousel.options, base.$elem.data(), options);
 
@@ -2476,8 +2474,7 @@ if (typeof Object.create !== "function") {
             if (base.options.autoPlay === true) {
                 base.options.autoPlay = 5000;
             }
-            base.play();
-
+            
             base.$elem.find(".owl-wrapper").css("display", "block");
 
             if (!base.$elem.is(":visible")) {
@@ -3875,6 +3872,7 @@ if (typeof Object.create !== "function") {
         afterLazyLoad: false
     };
 }(jQuery, window, document));
+
 
 /*! Magnific Popup - v1.0.0 - 2015-01-03
 * http://dimsemenov.com/plugins/magnific-popup/
@@ -5945,7 +5943,6 @@ $.magnificPopup.registerModule(RETINA_NS, {
     $('.navbar-nav li a').click(function(event) {
         $('.in').collapse('hide');
     });
-
     /* Smooth scroll to section
     ----------------------------------------------*/
     $('a.scroll[href*=#]:not([href=#])').click(function() {
@@ -5961,22 +5958,13 @@ $.magnificPopup.registerModule(RETINA_NS, {
             }
         }
     });
-
-    /* Team slideshow
-    ----------------------------------------------*/
-    $("#team-carousel").owlCarousel({
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
+     $("#team-carousel").owlCarousel({
+        autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
-        itemsDesktopSmall : [979,3],
-        stopOnHover: true
-
+        lazyLoad : true
     });
-  /* Tooltip
-    ----------------------------------------------*/
+ 
     $('[data-toggle="tooltip"]').tooltip();
-
-    /* Lightbox
-    ----------------------------------------------*/
     $('.image-link').magnificPopup({
         type:'image'
     });

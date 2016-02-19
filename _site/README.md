@@ -1,5 +1,5 @@
 
-# extreme-airs2
+# extremeAir
 
 
 using jekyll for the website and data blocks for the website product rendering
@@ -9,7 +9,7 @@ using jekyll for the website and data blocks for the website product rendering
 ```
 npm install
 grunt 
-jekyll --serve
+jekyll serve
 ```
 
 grunt is used to compile the sass files and also minify them.

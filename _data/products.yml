@@ -1,26 +1,8 @@
 - id: 1
-  name: Cement feeding system
-  image: Cement Feeding.jpg
-  image1: cementfeeding1.jpg
-  image2: cementfeeding2.jpg
-  alt: please insert proper image
-  email: email@gmail.com
-  phone: 9659 43 21
-  content: "This system is designed to feed cement or fly ash for packaging in bags/bunkers/screening applications as per clients need.  Its used for conveying or feeding the cement or fly ash into silos at Batching Plant sites. We provide highly customized systems with several designs and technical specifications to suit specific needs of our clients. We use high quality components in accordance with international quality standards and that too with most affordable prices. Some of the
-  features are :"
-  Applications:
-    - Reliable operation and long service life 
-    - Smooth operation great feeding capacity and high efficiency 
-    - Continuous and even feeding of cement or other powder based materials 
-    - Variable flow rate and operation mode 
-    - Excellent continuity and adjustable vibrating force 
-    - Low noise and power efficient
-    
-- id: 2
   name: Roots Blower
   image: Roots Blower1.jpg
-  image1: gallery-small.jpg
-  image2: gallery-small2.jpg
+  image1: IMG-20160218-WA0003.jpg
+  image2: IMG-20160218-WA0004.jpg
   alt: please insert proper image
   email: email@gmail.com
   phone: 9659 43 21
@@ -39,6 +21,24 @@
     - Charging of Kilns in Cement and Steel Plants
     - Effluent Treatment Plants
     - Dewatering and many more.
+
+- id: 2
+  name: Cement feeding system
+  image: Cement Feeding.jpg
+  image1: cementfeeding1.jpg
+  image2: cementfeeding2.jpg
+  alt: please insert proper image
+  email: email@gmail.com
+  phone: 9659 43 21
+  content: "This system is designed to feed cement or fly ash for packaging in bags/bunkers/screening applications as per clients need.  Its used for conveying or feeding the cement or fly ash into silos at Batching Plant sites. We provide highly customized systems with several designs and technical specifications to suit specific needs of our clients. We use high quality components in accordance with international quality standards and that too with most affordable prices. Some of the
+  features are :"
+  Applications:
+    - Reliable operation and long service life 
+    - Smooth operation great feeding capacity and high efficiency 
+    - Continuous and even feeding of cement or other powder based materials 
+    - Variable flow rate and operation mode 
+    - Excellent continuity and adjustable vibrating force 
+    - Low noise and power efficient
     
 - id: 3
   name: Vacuum Pump

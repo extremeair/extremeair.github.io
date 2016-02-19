@@ -6,7 +6,6 @@
     $('.navbar-nav li a').click(function(event) {
         $('.in').collapse('hide');
     });
-
     /* Smooth scroll to section
     ----------------------------------------------*/
     $('a.scroll[href*=#]:not([href=#])').click(function() {
@@ -22,22 +21,13 @@
             }
         }
     });
-
-    /* Team slideshow
-    ----------------------------------------------*/
-    $("#team-carousel").owlCarousel({
-        autoPlay: 5000, //Set AutoPlay to 5 seconds
+     $("#team-carousel").owlCarousel({
+        autoplay:false, //Set AutoPlay to 5 seconds
         items : 3,
-        itemsDesktopSmall : [979,3],
-        stopOnHover: true
-
+        lazyLoad : true
     });
-  /* Tooltip
-    ----------------------------------------------*/
+ 
     $('[data-toggle="tooltip"]').tooltip();
-
-    /* Lightbox
-    ----------------------------------------------*/
     $('.image-link').magnificPopup({
         type:'image'
     });
